@@ -1,0 +1,345 @@
+{
+  "HomePage": {
+    "main": {
+      "title": "Real-time Fleet Intelligence",
+      "subtitle": "",
+      "image": "/HomePage/Main-Bg.png",
+      "slogan": "Real-time Fleet Intelligence<br></br>for Enhanced <highlight>Safety and Efficiency</highlight>"
+    },
+    "section_1": {
+      "title": "Transform Your Fleet Management with AI!",
+      "subtitle": "",
+      "content": "For commercial fleets, safety, efficiency, and carbon reduction are paramount. OmniEyes delivers a powerful yet intuitive AI-powered fleet management system that effectively reduces operational risks and costs.",
+      "image": "/HomePage/HomePage-01.png",
+      "blocks": {
+        "block_1": {
+          "title": "Social",
+          "subtitle": "",
+          "content": "Safety is a daily challenge for every commercial fleet. Beyond reducing unnecessary operational costs and accident-related delays, it's the cornerstone of corporate social responsibility.",
+          "image": "/HomePage/ESG-S.png"
+        },
+        "block_2": {
+          "title": "Governance",
+          "subtitle": "",
+          "content": "True efficiency goes beyond pushing drivers to speed up. By leveraging AI to capture experienced drivers' insights and combining them with effective management tools, we empower fleet managers to maximize their team's potential.",
+          "image": "/HomePage/ESG-G.png"
+        },
+        "block_3": {
+          "title": "Environmental",
+          "subtitle": "",
+          "content": "MyFleet combines OBDII interface with AI video analytics to monitor fleet fuel consumption, engine performance, and driving behavior in real-time, helping businesses achieve sustainability goals while reducing operational costs.",
+          "image": "/HomePage/ESG-E.png"
+        }
+      }
+    },
+    "section_2": {
+      "title": "Do These Challenges Sound Familiar?",
+      "subtitle": "",
+      "content": "",
+      "image": "/HomePage/HomePage-02.png",
+      "blocks": {
+        "block_1": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "硬體的安裝或升級不但拖延送貨效率也造成系統升級的延誤。",
+          "image": ""
+        },
+        "block_2": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "為了提升車隊安全並符合日益嚴苛的法規要求，不停採購各式硬體但功能卻無法相互整合。",
+          "image": ""
+        },
+        "block_3": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "來自不同設備與系統的資訊無法於雲端同步與整合。",
+          "image": ""
+        },
+        "block_4": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "設備故障或遭人為破壞無法及時掌握。",
+          "image": ""
+        },
+        "block_5": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "偵測急煞車、急減速甚或安裝視野輔助或ADAS也無法有效降低危險駕駛。",
+          "image": ""
+        },
+        "block_6": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "輔助駕駛頻繁擾人的各項警示音無助提升行車安全，只會造成駕駛者分心。",
+          "image": ""
+        },
+        "block_7": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "大量的雲端數據與原始影像或資料只會加重日常業務負擔，無法提供車隊管理人員採取立即的行動。",
+          "image": ""
+        }
+      }
+    },
+    "section_3": {
+      "title": "Why Choose OmniEyes?",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "Rapid Integration, Unlimited Scalability",
+          "subtitle": "",
+          "content": "Every AI feature in OmniEyes is built on modular software architecture, enabling quick integration and unlimited upgrade potential.",
+          "image": "/HomePage/Why-OmniEyes-01.png"
+        },
+        "block_2": {
+          "title": "Seamless Sensor Integration",
+          "subtitle": "",
+          "content": "Our robust hardware platform connects with various sensors and peripheral devices, synchronizing all operational and fleet management data at the vehicle edge, streamlining data processing and reducing manpower requirements.",
+          "image": "/HomePage/Why-OmniEyes-02.png"
+        },
+        "block_3": {
+          "title": "Information Integration",
+          "subtitle": "",
+          "content": "MyFleet's interface consolidates all essential information. Access vehicle status, driving behavior, and sensor data with just a few clicks, combined with temporal and location data for immediate action.",
+          "image": "/HomePage/Why-OmniEyes-03.png"
+        },
+        "block_4": {
+          "title": "Reduced Fleet Costs",
+          "subtitle": "",
+          "content": "OmniEyes monitors traffic violations and risky driving behavior in real-time, integrated with driver education platforms. These recordings serve as valuable training materials, effectively reducing training costs.",
+          "image": "/HomePage/Why-OmniEyes-04.png"
+        },
+        "block_5": {
+          "title": "Clear, Consistent Voice Prompts",
+          "subtitle": "",
+          "content": "Busy deliveries are stressful enough, and with clear and consistent voice prompts, drivers only get help when they need it most.",
+          "image": "/HomePage/Why-OmniEyes-05.png"
+        }
+      }
+    },
+    "section_4": {
+      "title": "All-in-One Management Platform: Break Free from Limitations",
+      "subtitle": "",
+      "content": "OmniEyes delivers powerful AI capabilities, seamlessly integrating essential fleet functions including fuel efficiency tracking, carbon footprint monitoring, mileage reports, real-time positioning, POD (Proof of Delivery), and video search. Through cloud computing and edge computing, we offer customizable service triggers, parameters, and feature settings, enabling you to easily create a tailored management suite and control center for your fleet.",
+      "image": "/HomePage/HomePage-03.png",
+      "blocks": {
+        "block_1": {
+          "title": "",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    },
+    "section_5": {
+      "title": "Media Coverage",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "2020 Meet Taipei Startup Festival-Top 30 Neo Star",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    },
+    "section_6": {
+      "title": "Partners",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    }
+  },
+  "LocaleLayout": {
+    "title": "OmniEyes 2.0"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} zh_TW {正體中文} other {Unknown}}"
+  },
+  "MainNav": {
+    "home": "Home",
+    "products": "Products",
+    "productItems": {
+      "myFleet": {
+        "name": "MyFleet",
+        "href": "/products/myfleet",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      "hardware": {
+        "name": "AI Box + Cameras",
+        "href": "/products/hardware",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      "aiCopilot": {
+        "name": "AI Copilot",
+        "href": "/products/ai-copilot",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      "apiService": {
+        "name": "API",
+        "href": "/products/api-service",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      }
+    },
+    "solutions": "Solutions",
+    "solutionsItems": {
+      "item_1": {
+        "name": "",
+        "href": "",
+        "description": ""
+      }
+    },
+    "resource": "Resource",
+    "resourceItems": {
+      "item_1": {
+        "name": "使用指南",
+        "href": "",
+        "description": ""
+      },
+      "item_2": {
+        "name": "部落格",
+        "href": "",
+        "description": ""
+      }
+    },
+    "about": "About Us"
+  },
+  "MyFleetPage": {
+    "main": {
+      "title": "AI Vision Enabled Fleet Management Solutions",
+      "subtitle": "Enhance safety, digitize workflows, and eliminate redundant tasks by converting them into automated notifications.",
+      "image": "/bg/bg-01.jpg"
+    },
+    "section_1": {
+      "title": "Edge Enhanced with AI Box & AI Copilot",
+      "content": "MyFleet integrates AI Box & AI Copilot. Edge computing advantages provide massive computing power for real-time recognition and notifications.",
+      "image": "/products/MyFleet-01.png"
+    },
+    "features": {
+      "title": "MyFleet Features",
+      "subtitle": "",
+      "feature_1": {
+        "title": "Real-time tracking",
+        "content": "MyFleet's map interface presents comprehensive fleet asset status on a single screen. Managers can quickly locate specific vehicles through multiple filtering options, monitoring vehicle locations, task execution status, and violation alerts in real-time.",
+        "image": "/products/MyFleet-車輛即時動態.png"
+      },
+      "feature_2": {
+        "title": "Route playback",
+        "content": "The system combines vehicle driving paths, AI event images, and OBDII diagnostic data to deliver comprehensive vehicle behavior analysis. Administrators can access detailed driving routes and stop locations, along with abnormal event indicators, to create a complete driving history database. Vehicle status data gathered through the OBDII interface enables early risk detection and helps prevent breakdowns.",
+        "image": "/products/MyFleet-車輛行車動態.png"
+      },
+      "feature_3": {
+        "title": "AI event monitoring",
+        "content": "OmniEyes' AI Copilot technology analyzes and assesses driving behavior in real time. The system automatically captures footage and data when it detects violations, including ViViD traffic infractions, OmniGuard risk alerts, and DriverCare unsafe driving patterns. These digital records help fleet managers implement standardized safety protocols.",
+        "image": "/products/MyFleet-AI 事件影像.png"
+      },
+      "feature_4": {
+        "title": "Drivers' behavior dashboard",
+        "content": "MyFleet's driver training feature uses OmniEyes' AI imaging technology to analyze drivers' long-term driving patterns. The system tracks and visualizes safe driving trends by collecting data on driving behaviors. Fleet managers can assess risks, spot potential safety issues in real-time, and offer specific guidance to drivers. This approach enhances driving standards and safety awareness while lowering accident rates.",
+        "image": "/products/MyFleet-安全駕駛訓練.png"
+      },
+      "feature_5": {
+        "title": "Vehicle Maintenance Alerts",
+        "content": "Regular vehicle maintenance scheduling is key to maintaining stable operational efficiency. MyFleet provides a comprehensive maintenance management dashboard that tracks vehicle inspections, maintenance, and insurance records, with detailed cost trend analysis. The system sends timely notifications for upcoming maintenance, enabling fleet managers to optimize resource allocation and maximize productivity.",
+        "image": "/products/MyFleet-車輛保修提醒.png"
+      },
+      "feature_6": {
+        "title": "Fleet Hierarchy",
+        "content": "MyFleet's user control interface supports up to four-tier management structures, allowing various fleet types to implement detailed permission controls and establish efficient reporting and monitoring mechanisms. Fleet customers can configure the organizational structure within MyFleet to match their existing hierarchy, ensuring powerful features reach every operational level while maintaining established corporate reporting protocols.",
+        "image": "/products/MyFleet-車隊階層管理.png"
+      },
+      "feature_7": {
+        "title": "Custom Location Management",
+        "content": "MyFleet offers maximum flexibility in map applications. Fleet operators can create and manage custom locations, utilizing these landmarks for vehicle dwell time statistics, event triggers, and arrival notifications, providing a fully customizable solution for location-based fleet management needs.",
+        "image": "/products/MyFleet-自訂地標應用.png"
+      }
+    }
+  },
+  "SiteFooter": {},
+  "AiCopilotPage": {
+    "main": {
+      "title": "AI Copilot",
+      "subtitle": "AI modules to help you improve fleet safety",
+      "image": "",
+      "slogan": ""
+    },
+    "section_1": {
+      "title": "AI Copilot",
+      "subtitle": "",
+      "content": "AI Copilot 是動見科技為車隊管理者打造的 AI 駕駛輔助系統，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "ViViD 交通違規",
+          "subtitle": "",
+          "content": "ViViD 交通違規是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識車輛違規行為，例如闖紅燈、逆向行駛、違規停車等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "image": ""
+        },
+        "block_2": {
+          "title": "OmniGuard 即時風險警示",
+          "subtitle": "",
+          "content": "OmniGuard 即時風險警示是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如急煞、急加速、急轉彎等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "image": ""
+        },
+        "block_3": {
+          "title": "DriverCare",
+          "subtitle": "",
+          "content": "DriverCare 是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如打哈欠、分心、手機操作等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "image": ""
+        }
+      }
+    }
+  },
+  "ApiServicePage": {
+    "main": {
+      "title": "API Integration",
+      "subtitle": "",
+      "image": "",
+      "slogan": ""
+    },
+    "features": [
+      {
+        "title": "",
+        "content": "",
+        "imageSrc": ""
+      }
+    ]
+  },
+  "HardwarePage": {
+    "main": {
+      "title": "AI Box + Cameras",
+      "subtitle": "AI Box + Cameras",
+      "image": "/products/Hardware-01.png"
+    }
+  },
+  "GuidePage": {
+    "main": {
+      "title": "Guide",
+      "subtitle": "",
+      "image": "",
+      "slogan": ""
+    }
+  },
+  "Blog": {
+    "main": {
+      "title": "Blog",
+      "subtitle": "",
+      "image": "",
+      "slogan": ""
+    }
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "HomePage": {
+    "main": {
+      "title": "即時掌握車隊狀況",
+      "subtitle": "",
+      "image": "/HomePage/Main-Bg.png",
+      "slogan": "即時掌握車隊狀況<br></br>協助車隊<highlight>安全及效率</highlight>的抵達"
+    },
+    "section_0": {
+      "title": "",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    },
+    "section_1": {
+      "title": "車隊管理應該更有效率、安全、節能！",
+      "subtitle": "",
+      "content": "對於商業車隊來說，沒有比安全、效率和節能減碳更重要的事，現在就讓動見科技簡單但強大的 AI 車隊管理系統，協助您進行風險管理及降低營運成本。",
+      "image": "/HomePage/HomePage-01.png",
+      "blocks": {
+        "block_1": {
+          "title": "社會責任 (安全)",
+          "subtitle": "",
+          "content": "安全是商業車隊每天必須面對的挑戰。它不僅能大幅降低非必要的營業支出和因意外事故產生的延遲，更是強化企業社會責任的最佳途徑。",
+          "image": "/HomePage/ESG-S.png"
+        },
+        "block_2": {
+          "title": "公司治理 (效率) ",
+          "subtitle": "",
+          "content": "效率提升不應只著重於要求司機加快車速，而是要善用人工智能來擷取資深司機的寶貴經驗，提供實用的行動資訊，並結合有效的管理工具，才能充分發揮管理人員的潛能。",
+          "image": "/HomePage/ESG-G.png"
+        },
+        "block_3": {
+          "title": "環境保護 (節能)",
+          "subtitle": "",
+          "content": "MyFleet 透過 OBDII 介面與 AI 影像分析，即時監控車隊油耗、引擎效能和駕駛行為，有效協助企業達成永續經營目標並降低營運成本。",
+          "image": "/HomePage/ESG-E.png"
+        }
+      }
+    },
+    "section_2": {
+      "title": "在過去的經驗中<br/>您是否也遇到下列問題？",
+      "subtitle": "",
+      "content": "",
+      "image": "/HomePage/HomePage-02.png",
+      "blocks": {
+        "block_1": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "硬體的安裝或升級不但拖延送貨效率也造成系統升級的延誤。",
+          "image": ""
+        },
+        "block_2": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "為了提升車隊安全並符合日益嚴苛的法規要求，不停採購各式硬體但功能卻無法相互整合。",
+          "image": ""
+        },
+        "block_3": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "來自不同設備與系統的資訊無法於雲端同步與整合。",
+          "image": ""
+        },
+        "block_4": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "設備故障或遭人為破壞無法及時掌握。",
+          "image": ""
+        },
+        "block_5": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "偵測急煞車、急減速甚或安裝視野輔助或ADAS也無法有效降低危險駕駛。",
+          "image": ""
+        },
+        "block_6": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "輔助駕駛頻繁擾人的各項警示音無助提升行車安全，只會造成駕駛者分心。",
+          "image": ""
+        },
+        "block_7": {
+          "title": "車隊管理老闆",
+          "subtitle": "",
+          "content": "大量的雲端數據與原始影像或資料只會加重日常業務負擔，無法提供車隊管理人員採取立即的行動。",
+          "image": ""
+        }
+      }
+    },
+    "section_3": {
+      "title": "為什麼選擇 OmniEyes？",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "快速整合，無限擴增",
+          "subtitle": "",
+          "content": "OmniEyes 提供的每個 AI 功能都建構在軟體模組上，不僅易於部署和快速整合，更擁有無限的升級可能。",
+          "image": "/HomePage/Why-OmniEyes-01.png"
+        },
+        "block_2": {
+          "title": "連結各項感測器，善於運用數據",
+          "subtitle": "",
+          "content": "強大的硬體平台可連接多種感測器與周邊設備，所有營業與車隊管理數據能在車機端完成整合與同步，有效簡化使用端的資料處理流程與人力需求。",
+          "image": "/HomePage/Why-OmniEyes-02.png"
+        },
+        "block_3": {
+          "title": "資訊統整",
+          "subtitle": "",
+          "content": "MyFleet 網頁完美整合各項資訊，只需一至二次點擊，即可無縫呈現車輛、駕駛、感測資料，並結合時間與位置資訊，讓您能立即採取行動。",
+          "image": "/HomePage/Why-OmniEyes-03.png"
+        },
+        "block_4": {
+          "title": "降低車隊成本",
+          "subtitle": "",
+          "content": "OmniEyes 透過即時偵測闖紅燈等違規駕駛影片，並結合駕駛教育訓練平台，有效掌握危險駕駛行為。這些影片可作為車隊教育訓練素材，有助於降低訓練成本。",
+          "image": "/HomePage/Why-OmniEyes-04.png"
+        },
+        "block_5": {
+          "title": "清楚一致的語音提示",
+          "subtitle": "",
+          "content": "忙碌的送貨已經讓人夠緊張了，透過清晰且一致的語音提示，司機只會在最需要時得到幫助。",
+          "image": "/HomePage/Why-OmniEyes-05.png"
+        }
+      }
+    },
+    "section_4": {
+      "title": "跨軟硬平台的一站式管理工具 讓您不再有所限制",
+      "subtitle": "",
+      "content": "OmniEyes 提供強大的 AI 功能，完美整合商業車隊所需的油耗統計、碳足跡盤查、行駛里程報表、車輛即時定位、到點通知(POI)及車禍影像調閱等功能。透過雲端與邊緣運算，我們開放多樣化的服務啟動、參數及功能設定，讓您無須仰賴我們的協助，即可輕鬆打造專屬於您車隊的管理工具與行控中心。",
+      "image": "/HomePage/HomePage-03.png",
+      "blocks": {
+        "block_1": {
+          "title": "",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    },
+    "section_5": {
+      "title": "新聞媒體",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "2020 Meet Taipei Startup Festival-Top 30 Neo Star",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    },
+    "section_6": {
+      "title": "合作夥伴",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "2020 Meet Taipei Startup Festival-Top 30 Neo Star",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    }
+  },
+  "LocaleLayout": {
+    "title": "next-intl example"
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {English} zh_TW {正體中文} other {Unknown}}"
+  },
+  "MainNav": {
+    "home": "Home",
+    "products": "產品",
+    "productItems": {
+      "myFleet": {
+        "label": "平台",
+        "name": "MyFleet",
+        "href": "/products/myfleet",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      "hardware": {
+        "label": "硬體",
+        "name": "AI Box + Cameras",
+        "href": "/products/hardware",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      "aiCopilot": {
+        "label": "AI",
+        "name": "AI Copilot",
+        "href": "/products/ai-copilot",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      },
+      "apiService": {
+        "label": "其他",
+        "name": "API 整合",
+        "href": "/products/api-service",
+        "description": "A modal dialog that interrupts the user with important content and expects a response."
+      }
+    },
+    "solutions": "解決方案",
+    "solutionsItems": {
+      "item_1": {
+        "name": "校車",
+        "href": "/solutions/bus",
+        "description": ""
+      },
+      "item_2": {
+        "name": "達富重車",
+        "href": "/solutions/heavy-truck",
+        "description": ""
+      }
+    },
+    "resource": "資源",
+    "resourceItems": {
+      "item_1": {
+        "name": "使用指南",
+        "href": "",
+        "description": ""
+      },
+      "item_2": {
+        "name": "部落格",
+        "href": "",
+        "description": ""
+      }
+    },
+    "about": "關於我們"
+  },
+  "SiteFooter": {},
+  "MyFleetPage": {
+    "main": {
+      "title": "MyFleet – 新世代 AI 車隊管理平台",
+      "subtitle": "透過主動通知提升安全性、數位化工作流程並減少重複性工作",
+      "image": "/bg/bg-01.jpg"
+    },
+    "section_1": {
+      "title": "透過邊緣 AI 增強車隊管理能力",
+      "content": "MyFleet 整合 AI Box 與 AI Copilot，透過邊緣運算優勢，提供即時識別和通知所需的強大運算能力。",
+      "image": "/products/MyFleet-01.png"
+    },
+    "features": {
+      "title": "MyFleet 核心功能",
+      "subtitle": "",
+      "feature_1": {
+        "title": "車輛即時動態",
+        "content": "MyFleet 的地圖介面將車隊資產狀態完整呈現於單一畫面，管理者可透過多重篩選條件快速鎖定特定車輛，掌握車輛位置分布、任務執行狀態及違規警示。",
+        "image": "/products/MyFleet-車輛即時動態.png"
+      },
+      "feature_2": {
+        "title": "車輛行車動態",
+        "content": "系統整合車輛行車軌跡、AI 事件影像與 OBDII 車載診斷資訊，提供完整的車輛行為分析。管理者可檢視詳細的行駛路徑、停留點位資訊，結合異常事件標記，建立完整的行車歷程數據庫。透過 OBDII 接口收集的車況資訊，協助及早發現潛在風險，預防車輛故障。",
+        "image": "/products/MyFleet-車輛行車動態.png"
+      },
+      "feature_3": {
+        "title": "AI 事件影像",
+        "content": "動見透過獨家的 AI Copilot 影像辨識技術，對駕駛行為進行即時分析與判斷。在偵測到違規行為時，自動記錄相關影像與數據，包含 ViViD 交通違規、OmniGuard 即時風險警示及 DriverCare 不當駕駛行為。這些紀錄形成數據化的管理依據，協助車隊建立標準化的安全管理制度。",
+        "image": "/products/MyFleet-AI 事件影像.png"
+      },
+      "feature_4": {
+        "title": "安全駕駛訓練",
+        "content": "MyFleet 的駕駛訓練功能，結合了動見獨家的影像 AI，長期記錄並統計車隊司機的駕駛習慣，並以圖像化的方式呈現安全駕駛的趨勢，通過收集和分析駕駛行為數據，系統可以為車隊管理者進行風險評估，即時識別潛在的安全隱患，並對駕駛提出相對應的建議和指導，提高司機的駕駛水平與安全意識，降低事故發生的機率。 ",
+        "image": "/products/MyFleet-安全駕駛訓練.png"
+      },
+      "feature_5": {
+        "title": "車輛保修提醒",
+        "content": "掌握車輛定期保修時程是維持生產力穩定發揮的關鍵，詳實紀錄的保修支出也提供了成本花費的趨勢分析。MyFleet 為車隊提供了車輛驗車、保養、保險的紀錄面板，並且可以在屆期的時候提早發出通知，讓車隊管理者可以提早安排資源，將生產力發揮最大化。",
+        "image": "/products/MyFleet-車輛保修提醒.png"
+      },
+      "feature_6": {
+        "title": "車隊階層管理",
+        "content": "MyFleet 的使用者控制介面，支援車隊客戶建立至多四層的管理架構，讓各種類型車隊能夠詳細分派管理權責，建立完善的回報與監管機制。車隊客戶能夠依照自身組織架構，在 MyFleet 上面設定出對應的架構，讓 MyFleet 強大的功能能夠落實到基層，同時保有既有的公司回報機制。",
+        "image": "/products/MyFleet-車隊階層管理.png"
+      },
+      "feature_7": {
+        "title": "自訂地標應用",
+        "content": "MyFleet 在地圖應用上提供了極高的自由度。車隊客戶可以自行標記自訂地標，並且利用地標進行車輛的停留時間統計、事件觸發、車輛抵達通知等應用。 ",
+        "image": "/products/MyFleet-自訂地標應用.png"
+      }
+    }
+  },
+  "AiCopilotPage": {
+    "main": {
+      "title": "AI Copilot",
+      "subtitle": "三大 AI 模組，助您提升車隊安全",
+      "image": "/HomePage/HomePage-03.png",
+      "slogan": ""
+    },
+    "section_1": {
+      "title": "AI Copilot",
+      "subtitle": "",
+      "content": "AI Copilot 是動見科技為車隊管理者打造的 AI 駕駛輔助系統，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "ViViD 交通違規",
+          "subtitle": "",
+          "content": "ViViD 交通違規是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識車輛違規行為，例如闖紅燈、逆向行駛、違規停車等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "image": ""
+        },
+        "block_2": {
+          "title": "OmniGuard 即時風險警示",
+          "subtitle": "",
+          "content": "OmniGuard 即時風險警示是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如急煞、急加速、急轉彎等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "image": ""
+        },
+        "block_3": {
+          "title": "DriverCare",
+          "subtitle": "",
+          "content": "DriverCare 是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如打哈欠、分心、手機操作等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "image": ""
+        }
+      }
+    }
+  },
+  "ApiServicePage": {
+    "main": {
+      "title": "強大的車隊智慧 API",
+      "subtitle": "Integrate AI-powered visual analytics and fleet management capabilities directly into your existing systems",
+      "image": "",
+      "slogan": ""
+    },
+    "benefitSection": {
+      "title": "",
+      "content": "",
+      "imageSrc": "",
+      "benefits": {
+        "benefit_1": {
+          "title": "Flexible Integration",
+          "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
+          "icon": ""
+        },
+        "benefit_2": {
+          "title": "Flexible Integration",
+          "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
+          "icon": ""
+        },
+        "benefit_3": {
+          "title": "Flexible Integration",
+          "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
+          "icon": ""
+        }
+      }
+    }
+  },
+  "HardwarePage": {
+    "main": {
+      "title": "AI Box + Cameras",
+      "subtitle": "AI Box + Cameras",
+      "image": "",
+      "slogan": ""
+    },
+    "aiBox": {
+      "features": [
+        {
+          "title": "Edge AI Visual-based Safety",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "GPS Realtime Tracking",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Firmware OTA Update",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Video Offline Storage",
+          "content": "",
+          "imageSrc": ""
+        }
+      ]
+    },
+    "streetFacingCam": {
+      "features": [
+        {
+          "title": "1080P High Resolution",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Video Retrieval",
+          "content": "Access and retrieve video footage wirelessly for event analysis.",
+          "imageSrc": ""
+        },
+        {
+          "title": "Firmware OTA Update",
+          "content": "",
+          "imageSrc": ""
+        }
+      ]
+    },
+    "driverFacingCam": {
+      "features": [
+        {
+          "title": "1080P High Resolution",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Night Vision",
+          "content": "AI-powered vision ensures precise operation 24/7.",
+          "imageSrc": ""
+        },
+        {
+          "title": "Video Retrieval",
+          "content": "Access and retrieve video footage wirelessly for event analysis.",
+          "imageSrc": ""
+        },
+        {
+          "title": "Firmware OTA Update",
+          "content": "",
+          "imageSrc": ""
+        }
+      ]
+    }
+  },
+  "GuidePage": {
+    "main": {
+      "title": "使用指南",
+      "subtitle": "",
+      "image": "",
+      "slogan": ""
+    }
+  },
+  "Blog": {
+    "main": {
+      "title": "部落格",
+      "subtitle": "",
+      "image": "",
+      "slogan": ""
+    }
+  },
+  "AboutPage": {
+    "main": {
+      "title": "關於我們",
+      "subtitle": "About OmniEyes",
+      "image": "/about-page/about-page-bg.png",
+      "slogan": ""
+    },
+    "introSection": {
+      "title": "動見科技",
+      "subtitle": "動見科技是一家專注於 AI 車隊管理解決方案的新創公司，我們的使命是透過 AI 影像辨識技術，提升車隊安全、效率和永續經營。",
+      "content": "我們的 AI 車隊管理系統 MyFleet，整合了 AI 影像辨識技術、車輛即時定位、行車動態分析、車輛保修提醒等功能，協助車隊管理者進行風險管理、降低營運成本。",
+      "image": "/about-page/about-page-team.png"
+    },
+    "founderSection": {
+      "title": "共同創辦人與經營團隊",
+      "subtitle": "團隊是三位台灣大學的教授，經由科技部價創計畫的輔助（TRUST-U）於 2017 年成立。我們的團隊具有頂尖的 AI 和軟體能力，以及專業的業務開發和管理人才，現在正逐步成長為富有競爭力的新創公司。",
+      "team": {
+        "member1": {
+          "name": "周俊廷",
+          "title": "CEO and Co-Founder",
+          "description": "國立台灣大學教授，在無線通訊、物聯網和邊緣運算領域有長達 20 年的經驗，在無線通訊協議領域擁有超過 30 個 IEEE 和 ECMA 標準的專利。周執行長獲獎無數，曾榮獲 Young Oversea Scholar Award、潘文淵物聯網創新獎，科技部創業先鋒獎、國立台灣大學學術貢獻獎。"
+        },
+        "member2": {
+          "name": "Tyson King",
+          "title": "CCO",
+          "description": "專長於制定有效的市場進入策略，並擁有在財富500強企業和成功被收購或上市的科技初創公司中的領導經驗。專注於無線通信、物聯網平台和人工智慧解決方案。"
+        },
+        "member3": {
+          "name": "逄愛君",
+          "title": "Co-Founder",
+          "description": "國立台灣大學教授，在多媒體網路和行動通訊領域有長達20年的經驗。逄教授是 IEEE 院士，同時也是IEEE車輛技術婦女傑出獎、科技部傑出研究獎和潘文淵基金會-物聯網創新獎的獲得者。"
+        },
+        "member4": {
+          "name": "林守德",
+          "title": "Co-Founder",
+          "description": "國立台灣大學教授，在人工智慧、機器學習（ML）和自然語言處理領域擁有20年的經驗。曾獲得 Google 研究獎、微軟研究獎，以及 ACM KDD Cup 7次冠軍。曾任Appier首席科學家，帶領A I科學家團隊推廣A I的落地，獲得許多企業獎項。"
+        },
+        "member5": {
+          "name": "吳思杭",
+          "title": "CFO",
+          "description": "在會計師事務所，銀行和零售行業從事財務工作超過 20 年，主要專注於業務計劃和預測，財務管理，內部控制和風險管理。"
+        }
+      }
+    },
+    "boardSection": {
+      "title": "BOARD OF DIRECTORS",
+      "directors": {
+        "director1": {
+          "name": "林淑禎",
+          "description": "富邦金控創業投資(股)公司董事兼副總經理。 Carey 在風險投資、戰略投資和併購方面擁有超過 20 年的經驗。 除了對科技、零售、媒體、體育、娛樂和可再生能源行業的投資外，Carey 還促成了 momo 購物台、momo 親子台等新業務的建立。並為富邦集團執行多項併購交易。 Carey 還代表富邦金控創投擔任其投資組合公司（主要是可再生能源、基礎設施和技術公司）的董事會董事。"
+        },
+        "director2": {
+          "name": "吳思本",
+          "description": "緯創資通股份有限公司董事長資深特別助理。負責企業內部的早期新創投資。曾任緯創光電總裁，緯創光電事業部總經理。在硬體行業的產品營銷、商業開發和運營方面擁有豐富的經驗。"
+        },
+        "director3": {
+          "name": "林守德",
+          "description": "國立台灣大學教授，在人工智慧、機器學習（ML）和自然語言處理領域擁有20年的經驗。曾獲得 Google 研究獎、微軟研究獎，以及 ACM KDD Cup 7次冠軍。曾任Appier首席科學家，帶領A I科學家團隊推廣A I的落地，獲得許多企業獎項。"
+        },
+        "director4": {
+          "name": "成介之",
+          "description": "創立主持信律國際法律事務所專精處理各類民刑事訴訟、非訟、智財或仲裁案件。曾出版數本法律相關著作。擔任元智大學財金系民商事法講師，公部門諮詢律師，仲裁協會仲裁人（工程類），中華民國藥師公會全國聯合會法律顧問，中華民國西藥商業同業公會全國聯合會，以及交通部公路總局公路汽車客運審議委員會委員。"
+        }
+      }
+    },
+    "teamSection": {
+      "title": "我們的團隊",
+      "content": "OmniEyes 是領先創投和國家發展基金會於 2019 年成立的，專門研究利用移動通訊、人工智慧的創新解決方案， OmniEyes 的團隊是由三位台灣大學的教授在2017年成立，從台灣聞名的大學發展到獨角獸新創企業（TRUST-U），而現在逐漸成為具有頂尖人工智慧和軟體實力、專業的商業性發展和管理，實實在在富有競爭力的新創公司。"
+    }
+  }
+}
