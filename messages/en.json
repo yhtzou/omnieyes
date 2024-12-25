@@ -464,51 +464,61 @@
       "title": "Co-Founders and Management Team",
       "subtitle": "The team was established in 2017 with the assistance of the Ministry of Science and Technology's Value Creation Program (TRUST-U) by three professors from National Taiwan University. Our team has top-notch AI and software capabilities, as well as professional business development and management talents, and is now gradually growing into a competitive startup company.",
       "team": {
-        "member1": {
+        "person_1": {
           "name": "Chun-Ting Chou",
           "title": "CEO and Co-Founder",
-          "description": "Professor at National Taiwan University, with 20 years of experience in wireless communications, IoT, and edge computing. He holds over 30 patents in the field of wireless communication protocols from IEEE and ECMA standards. CEO Chou has received numerous awards, including the Young Oversea Scholar Award, the Pan Wen Yuan IoT Innovation Award, the Ministry of Science and Technology Entrepreneurship Pioneer Award, and the National Taiwan University Academic Contribution Award."
+          "description": "Professor at National Taiwan University, with 20 years of experience in wireless communications, IoT, and edge computing. He holds over 30 patents in the field of wireless communication protocols from IEEE and ECMA standards. CEO Chou has received numerous awards, including the Young Oversea Scholar Award, the Pan Wen Yuan IoT Innovation Award, the Ministry of Science and Technology Entrepreneurship Pioneer Award, and the National Taiwan University Academic Contribution Award.",
+          "image": "/about-page/ting.png"
         },
-        "member2": {
+        "person_2": {
           "name": "Tyson King",
           "title": "CCO",
-          "description": "Specializes in developing effective market entry strategies and has leadership experience in Fortune 500 companies and successful tech startups that have been acquired or gone public. Focuses on wireless communications, IoT platforms, and artificial intelligence solutions."
+          "description": "Specializes in developing effective market entry strategies and has leadership experience in Fortune 500 companies and successful tech startups that have been acquired or gone public. Focuses on wireless communications, IoT platforms, and artificial intelligence solutions.",
+          "image": "/about-page/tyson.jpg"
         },
-        "member3": {
+        "person_3": {
           "name": "Ai-Jun Pang",
           "title": "Co-Founder",
-          "description": "Professor at National Taiwan University, with 20 years of experience in multimedia networks and mobile communications. Professor Pang is an IEEE Fellow and a recipient of the IEEE Women in Vehicle Technology Award, the Ministry of Science and Technology Outstanding Research Award, and the Pan Wen Yuan Foundation-IoT Innovation Award."
+          "description": "Professor at National Taiwan University, with 20 years of experience in multimedia networks and mobile communications. Professor Pang is an IEEE Fellow and a recipient of the IEEE Women in Vehicle Technology Award, the Ministry of Science and Technology Outstanding Research Award, and the Pan Wen Yuan Foundation-IoT Innovation Award.",
+          "image": "/about-page/feng-ai-chun.png"
         },
-        "member4": {
+        "person_4": {
           "name": "Shou-De Lin",
           "title": "Co-Founder",
-          "description": "Professor at National Taiwan University, with 20 years of experience in artificial intelligence, machine learning (ML), and natural language processing. He has received the Google Research Award, the Microsoft Research Award, and 7 championships in the ACM KDD Cup. He previously served as the Chief Scientist at Appier, leading the AI scientist team to promote the implementation of AI, and has received many corporate awards."
+          "description": "Professor at National Taiwan University, with 20 years of experience in artificial intelligence, machine learning (ML), and natural language processing. He has received the Google Research Award, the Microsoft Research Award, and 7 championships in the ACM KDD Cup. He previously served as the Chief Scientist at Appier, leading the AI scientist team to promote the implementation of AI, and has received many corporate awards.",
+          "image": "/about-page/lin-shou-te.png"
         },
-        "member5": {
+        "person_5": {
           "name": "Szu-Hang Wu",
           "title": "CFO",
-          "description": "Has over 20 years of experience in finance in accounting firms, banking, and retail industries, focusing primarily on business planning and forecasting, financial management, internal control, and risk management."
+          "description": "Has over 20 years of experience in finance in accounting firms, banking, and retail industries, focusing primarily on business planning and forecasting, financial management, internal control, and risk management.",
+          "image": "/about-page/nicole.png"
         }
       }
     },
     "boardSection": {
       "title": "BOARD OF DIRECTORS",
+      "subtitle": "placeholders",
       "directors": {
-        "director1": {
+        "person_1": {
           "name": "Shu-Chen Lin",
-          "description": "Director and Vice President of Fubon Financial Holdings Venture Capital Co., Ltd. Carey has over 20 years of experience in venture capital, strategic investment, and mergers and acquisitions. In addition to investing in the technology, retail, media, sports, entertainment, and renewable energy industries, Carey has also facilitated the establishment of new businesses such as momo Shopping Channel and momo Kids Channel. She has also executed several M&A transactions for the Fubon Group. Carey also represents Fubon Financial Holdings Venture Capital as a board member of its portfolio companies (mainly renewable energy, infrastructure, and technology companies)."
+          "description": "Director and Vice President of Fubon Financial Holdings Venture Capital Co., Ltd. Carey has over 20 years of experience in venture capital, strategic investment, and mergers and acquisitions. In addition to investing in the technology, retail, media, sports, entertainment, and renewable energy industries, Carey has also facilitated the establishment of new businesses such as momo Shopping Channel and momo Kids Channel. She has also executed several M&A transactions for the Fubon Group. Carey also represents Fubon Financial Holdings Venture Capital as a board member of its portfolio companies (mainly renewable energy, infrastructure, and technology companies).",
+          "image": "/about-page/lin-shu-chen.jpg"
         },
-        "director2": {
+        "person_2": {
           "name": "Szu-Pen Wu",
-          "description": "Senior Special Assistant to the Chairman of Wistron Corporation. Responsible for early-stage startup investments within the company. He previously served as President of Wistron Optronics and General Manager of Wistron Optronics Business Unit. He has extensive experience in product marketing, business development, and operations in the hardware industry."
+          "description": "Senior Special Assistant to the Chairman of Wistron Corporation. Responsible for early-stage startup investments within the company. He previously served as President of Wistron Optronics and General Manager of Wistron Optronics Business Unit. He has extensive experience in product marketing, business development, and operations in the hardware industry.",
+          "image": "/about-page/wu-si-ben.png"
         },
-        "director3": {
+        "person_3": {
           "name": "Shou-De Lin",
-          "description": "Professor at National Taiwan University, with 20 years of experience in artificial intelligence, machine learning (ML), and natural language processing. He has received the Google Research Award, the Microsoft Research Award, and 7 championships in the ACM KDD Cup. He previously served as the Chief Scientist at Appier, leading the AI scientist team to promote the implementation of AI, and has received many corporate awards."
+          "description": "Professor at National Taiwan University, with 20 years of experience in artificial intelligence, machine learning (ML), and natural language processing. He has received the Google Research Award, the Microsoft Research Award, and 7 championships in the ACM KDD Cup. He previously served as the Chief Scientist at Appier, leading the AI scientist team to promote the implementation of AI, and has received many corporate awards.",
+          "image": "/about-page/lin-shou-te.png"
         },
-        "director4": {
+        "person_4": {
           "name": "Chieh-Chih Cheng",
-          "description": "Founder and host of Shin Law International Law Firm, specializing in handling various civil and criminal litigation, non-litigation, intellectual property, or arbitration cases. He has published several law-related books. He serves as a lecturer in civil and commercial law at the Department of Finance at Yuan Ze University, a consultant lawyer for public sector, an arbitrator of the Arbitration Association (engineering category), a legal advisor to the National Federation of Pharmacists Associations of the Republic of China, the National Federation of Western Medicine Commercial Associations, and a member of the Highway Bus Passenger Transport Review Committee of the Directorate General of Highways, Ministry of Transportation and Communications."
+          "description": "Founder and host of Shin Law International Law Firm, specializing in handling various civil and criminal litigation, non-litigation, intellectual property, or arbitration cases. He has published several law-related books. He serves as a lecturer in civil and commercial law at the Department of Finance at Yuan Ze University, a consultant lawyer for public sector, an arbitrator of the Arbitration Association (engineering category), a legal advisor to the National Federation of Pharmacists Associations of the Republic of China, the National Federation of Western Medicine Commercial Associations, and a member of the Highway Bus Passenger Transport Review Committee of the Directorate General of Highways, Ministry of Transportation and Communications.",
+          "image": "/about-page/cheng-jie-chi.png"
         }
       }
     },
