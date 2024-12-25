@@ -104,13 +104,13 @@ export default function HomePage() {
   const t = useTranslations("HomePage");
   const logos = [
     "EPD.png",
-    "DHL.webp",
+    "DHL.png",
     "MOM.png",
     "UBK.png",
     "FPG.png",
     "ALY.png",
     "SLT.png",
-    "XNT.jpg",
+    "XNT.png",
   ];
   const esg = [1, 2, 3] as const;
   const reasons = [1, 2, 3, 4, 5] as const;
@@ -129,9 +129,8 @@ export default function HomePage() {
           height={1588}
           priority
           style={{
-            maskImage: "linear-gradient(to right, transparent 0%, black 20%)",
-            WebkitMaskImage:
-              "linear-gradient(to right, transparent 0%, black 20%)",
+            maskImage: `linear-gradient(to right, transparent 0%, black 20%)`,
+            WebkitMaskImage: `linear-gradient(to right, transparent 0%, black 20%)`,
           }}
         />
         <div className="absolute bottom-40 left-20">
@@ -150,12 +149,12 @@ export default function HomePage() {
       </div>
 
       {/* customers logo */}
-      <div className="flex flex-col items-center space-y-12 py-8">
+      <div className="flex flex-col items-center space-y-12 py-20">
         <h2 className="text-2xl font-medium">為眾多客戶信任</h2>
         <div className="container mx-auto flex flex-row gap-8">
           {logos?.map((key, index) => {
             return (
-              <div key={index} className="relative h-10 w-40">
+              <div key={index} className="relative h-8 w-full">
                 <Image
                   className="dark:invert"
                   src={`/logo/${key}`}
@@ -182,7 +181,7 @@ export default function HomePage() {
             height={1804 / 4}
           />
           <h2
-            className="left-1/6 absolute w-[1420px] text-xl font-bold pl-20"
+            className="left-1/6 absolute w-[1420px] pl-20 text-xl font-bold"
             dangerouslySetInnerHTML={{ __html: t.raw("section_2.title") }}
           />
           <div className="left-1/6 absolute top-0 h-full w-[1420px] space-y-8 px-20 py-32">
