@@ -172,18 +172,7 @@ export default function HomePage() {
       </div>
 
       {/* Pain Points */}
-      <Image
-        className="h-full w-full dark:invert"
-        src="/HomePage/home-painpoints.png"
-        alt="pain points"
-        width={2744}
-        height={1210}
-        priority
-        style={{
-          objectFit: "contain",
-        }}
-      />
-      <div className="hidden">
+      <div className="py-24">
         <div className="relative flex flex-col items-center space-y-12">
           <Image
             className="ml-auto w-full px-32 dark:invert"
@@ -192,25 +181,39 @@ export default function HomePage() {
             width={3552 / 4}
             height={1804 / 4}
           />
-          <div className="absolute flex flex-col items-center">
-            <h2
-              className="mb-2 text-2xl font-bold"
-              dangerouslySetInnerHTML={{ __html: t.raw("section_2.title") }}
-            />
-          </div>
-          <div>
-            {painpoints?.map((key, index) => (
-              <div key={index} className="flex flex-col items-center gap-4">
-                <h3 className="text-2xl font-bold">{key.name}</h3>
-                <p>{key.content}</p>
-              </div>
-            ))}
+          <h2
+            className="left-1/6 absolute w-[1420px] text-xl font-bold pl-20"
+            dangerouslySetInnerHTML={{ __html: t.raw("section_2.title") }}
+          />
+          <div className="left-1/6 absolute top-0 h-full w-[1420px] space-y-8 px-20 py-32">
+            <div className="grid grid-cols-4 gap-8">
+              {painpoints?.slice(0, 4).map((key, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col justify-between gap-4 rounded-lg bg-white/50 p-6"
+                >
+                  <p>{key.content}</p>
+                  <h3 className="text-sm font-medium">{key.name}</h3>
+                </div>
+              ))}
+            </div>
+            <div className="grid grid-cols-3 place-content-center gap-8">
+              {painpoints?.slice(4, 7).map((key, index) => (
+                <div
+                  key={index}
+                  className="flex flex-col justify-between gap-4 rounded-lg bg-white/50 p-6"
+                >
+                  <p>{key.content}</p>
+                  <h3 className="text-sm font-medium">{key.name}</h3>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
 
       {/* Call to Action */}
-      <div className="bg-zinc-50">
+      <div className="bg-zinc-50 py-24">
         <TopCallToAction className="container mx-auto" />
       </div>
 
