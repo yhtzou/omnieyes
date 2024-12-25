@@ -2,7 +2,7 @@ import { CallToAction } from "@/components/call-to-action";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-import { solutionPage } from "@/content.json";
+import pageContent from "@/content.json";
 import { Icons } from "@/components/icons";
 
 function PainpointItem({
@@ -62,6 +62,7 @@ function MyFleetFeatureItem({
 }
 
 export default function HeavyTruck() {
+  const solutionPage = pageContent.solutionPage;
   const t = useTranslations("MyFleetPage");
 
   const vivid = [

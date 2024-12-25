@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import { homePage } from "@/content.json";
+import pageContent from "@/content.json";
 
 function Block({
   imageSrc,
@@ -100,6 +100,7 @@ function ProductBlock({
 }
 
 export default function HomePage() {
+  const homePage = pageContent.homePage;
   const t = useTranslations("HomePage");
   const logos = [
     "EPD.png",

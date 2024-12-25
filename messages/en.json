@@ -6,6 +6,20 @@
       "image": "/HomePage/Main-Bg.png",
       "slogan": "Real-time Fleet Intelligence<br></br>for Enhanced <highlight>Safety and Efficiency</highlight>"
     },
+    "section_0": {
+      "title": "",
+      "subtitle": "",
+      "content": "",
+      "image": "",
+      "blocks": {
+        "block_1": {
+          "title": "",
+          "subtitle": "",
+          "content": "",
+          "image": ""
+        }
+      }
+    },
     "section_1": {
       "title": "Transform Your Fleet Management with AI!",
       "subtitle": "",
@@ -13,19 +27,19 @@
       "image": "/HomePage/HomePage-01.png",
       "blocks": {
         "block_1": {
-          "title": "Social",
+          "title": "Social Responsibility (Safety)",
           "subtitle": "",
           "content": "Safety is a daily challenge for every commercial fleet. Beyond reducing unnecessary operational costs and accident-related delays, it's the cornerstone of corporate social responsibility.",
           "image": "/HomePage/ESG-S.png"
         },
         "block_2": {
-          "title": "Governance",
+          "title": "Corporate Governance (Efficiency)",
           "subtitle": "",
           "content": "True efficiency goes beyond pushing drivers to speed up. By leveraging AI to capture experienced drivers' insights and combining them with effective management tools, we empower fleet managers to maximize their team's potential.",
           "image": "/HomePage/ESG-G.png"
         },
         "block_3": {
-          "title": "Environmental",
+          "title": "Environmental Protection (Energy Saving)",
           "subtitle": "",
           "content": "MyFleet combines OBDII interface with AI video analytics to monitor fleet fuel consumption, engine performance, and driving behavior in real-time, helping businesses achieve sustainability goals while reducing operational costs.",
           "image": "/HomePage/ESG-E.png"
@@ -33,51 +47,51 @@
       }
     },
     "section_2": {
-      "title": "Do These Challenges Sound Familiar?",
+      "title": "In the past experience,<br/>have you encountered the following problems?",
       "subtitle": "",
       "content": "",
       "image": "/HomePage/HomePage-02.png",
       "blocks": {
         "block_1": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "硬體的安裝或升級不但拖延送貨效率也造成系統升級的延誤。",
+          "content": "Hardware installation or upgrades not only delay delivery efficiency but also cause delays in system upgrades.",
           "image": ""
         },
         "block_2": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "為了提升車隊安全並符合日益嚴苛的法規要求，不停採購各式硬體但功能卻無法相互整合。",
+          "content": "In order to improve fleet safety and meet increasingly stringent regulatory requirements, various hardware is continuously purchased, but the functions cannot be integrated with each other.",
           "image": ""
         },
         "block_3": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "來自不同設備與系統的資訊無法於雲端同步與整合。",
+          "content": "Information from different devices and systems cannot be synchronized and integrated in the cloud.",
           "image": ""
         },
         "block_4": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "設備故障或遭人為破壞無法及時掌握。",
+          "content": "Equipment failures or human damage cannot be grasped in time.",
           "image": ""
         },
         "block_5": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "偵測急煞車、急減速甚或安裝視野輔助或ADAS也無法有效降低危險駕駛。",
+          "content": "Detecting sudden braking, sudden deceleration, or even installing vision assistance or ADAS cannot effectively reduce dangerous driving.",
           "image": ""
         },
         "block_6": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "輔助駕駛頻繁擾人的各項警示音無助提升行車安全，只會造成駕駛者分心。",
+          "content": "The frequent and annoying warning sounds of auxiliary driving do not help improve driving safety, but only distract the driver.",
           "image": ""
         },
         "block_7": {
-          "title": "車隊管理老闆",
+          "title": "Fleet Management Boss",
           "subtitle": "",
-          "content": "大量的雲端數據與原始影像或資料只會加重日常業務負擔，無法提供車隊管理人員採取立即的行動。",
+          "content": "A large amount of cloud data and original images or data will only increase the burden of daily operations and cannot provide fleet management personnel to take immediate action.",
           "image": ""
         }
       }
@@ -155,7 +169,7 @@
       "image": "",
       "blocks": {
         "block_1": {
-          "title": "",
+          "title": "2020 Meet Taipei Startup Festival-Top 30 Neo Star",
           "subtitle": "",
           "content": "",
           "image": ""
@@ -164,7 +178,7 @@
     }
   },
   "LocaleLayout": {
-    "title": "OmniEyes 2.0"
+    "title": "next-intl example"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -175,22 +189,26 @@
     "products": "Products",
     "productItems": {
       "myFleet": {
+        "label": "Platform",
         "name": "MyFleet",
         "href": "/products/myfleet",
         "description": "A modal dialog that interrupts the user with important content and expects a response."
       },
       "hardware": {
+        "label": "Hardware",
         "name": "AI Box + Cameras",
         "href": "/products/hardware",
         "description": "A modal dialog that interrupts the user with important content and expects a response."
       },
       "aiCopilot": {
+        "label": "AI",
         "name": "AI Copilot",
         "href": "/products/ai-copilot",
         "description": "A modal dialog that interrupts the user with important content and expects a response."
       },
       "apiService": {
-        "name": "API",
+        "label": "Others",
+        "name": "API Integration",
         "href": "/products/api-service",
         "description": "A modal dialog that interrupts the user with important content and expects a response."
       }
@@ -198,29 +216,35 @@
     "solutions": "Solutions",
     "solutionsItems": {
       "item_1": {
-        "name": "",
-        "href": "",
+        "name": "School Bus",
+        "href": "/solutions/bus",
+        "description": ""
+      },
+      "item_2": {
+        "name": "DAF Heavy Truck",
+        "href": "/solutions/heavy-truck",
         "description": ""
       }
     },
     "resource": "Resource",
     "resourceItems": {
       "item_1": {
-        "name": "使用指南",
-        "href": "",
+        "name": "User Guide",
+        "href": "/",
         "description": ""
       },
       "item_2": {
-        "name": "部落格",
-        "href": "",
+        "name": "Blog",
+        "href": "/",
         "description": ""
       }
     },
     "about": "About Us"
   },
+  "SiteFooter": {},
   "MyFleetPage": {
     "main": {
-      "title": "AI Vision Enabled Fleet Management Solutions",
+      "title": "MyFleet - The Next Generation AI Fleet Management Platform",
       "subtitle": "Enhance safety, digitize workflows, and eliminate redundant tasks by converting them into automated notifications.",
       "image": "/bg/bg-01.jpg"
     },
@@ -230,7 +254,7 @@
       "image": "/products/MyFleet-01.png"
     },
     "features": {
-      "title": "MyFleet Features",
+      "title": "MyFleet Core Features",
       "subtitle": "",
       "feature_1": {
         "title": "Real-time tracking",
@@ -238,17 +262,17 @@
         "image": "/products/MyFleet-車輛即時動態.png"
       },
       "feature_2": {
-        "title": "Route playback",
+        "title": "Vehicle Driving Dynamics",
         "content": "The system combines vehicle driving paths, AI event images, and OBDII diagnostic data to deliver comprehensive vehicle behavior analysis. Administrators can access detailed driving routes and stop locations, along with abnormal event indicators, to create a complete driving history database. Vehicle status data gathered through the OBDII interface enables early risk detection and helps prevent breakdowns.",
         "image": "/products/MyFleet-車輛行車動態.png"
       },
       "feature_3": {
-        "title": "AI event monitoring",
+        "title": "AI Event Recording",
         "content": "OmniEyes' AI Copilot technology analyzes and assesses driving behavior in real time. The system automatically captures footage and data when it detects violations, including ViViD traffic infractions, OmniGuard risk alerts, and DriverCare unsafe driving patterns. These digital records help fleet managers implement standardized safety protocols.",
         "image": "/products/MyFleet-AI 事件影像.png"
       },
       "feature_4": {
-        "title": "Drivers' behavior dashboard",
+        "title": "Safe Driving Training",
         "content": "MyFleet's driver training feature uses OmniEyes' AI imaging technology to analyze drivers' long-term driving patterns. The system tracks and visualizes safe driving trends by collecting data on driving behaviors. Fleet managers can assess risks, spot potential safety issues in real-time, and offer specific guidance to drivers. This approach enhances driving standards and safety awareness while lowering accident rates.",
         "image": "/products/MyFleet-安全駕駛訓練.png"
       },
@@ -258,47 +282,46 @@
         "image": "/products/MyFleet-車輛保修提醒.png"
       },
       "feature_6": {
-        "title": "Fleet Hierarchy",
+        "title": "Fleet Hierarchy Management",
         "content": "MyFleet's user control interface supports up to four-tier management structures, allowing various fleet types to implement detailed permission controls and establish efficient reporting and monitoring mechanisms. Fleet customers can configure the organizational structure within MyFleet to match their existing hierarchy, ensuring powerful features reach every operational level while maintaining established corporate reporting protocols.",
         "image": "/products/MyFleet-車隊階層管理.png"
       },
       "feature_7": {
-        "title": "Custom Location Management",
+        "title": "Custom Location Application",
         "content": "MyFleet offers maximum flexibility in map applications. Fleet operators can create and manage custom locations, utilizing these landmarks for vehicle dwell time statistics, event triggers, and arrival notifications, providing a fully customizable solution for location-based fleet management needs.",
         "image": "/products/MyFleet-自訂地標應用.png"
       }
     }
   },
-  "SiteFooter": {},
   "AiCopilotPage": {
     "main": {
       "title": "AI Copilot",
-      "subtitle": "AI modules to help you improve fleet safety",
-      "image": "",
+      "subtitle": "Three major AI modules to help you improve fleet safety",
+      "image": "/HomePage/HomePage-03.png",
       "slogan": ""
     },
     "section_1": {
       "title": "AI Copilot",
       "subtitle": "",
-      "content": "AI Copilot 是動見科技為車隊管理者打造的 AI 駕駛輔助系統，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
+      "content": "AI Copilot is an AI driving assistance system created by OmniEyes for fleet managers. Through AI image recognition technology, it analyzes driving behavior in real time, provides driving risk warnings, and assists fleet managers in establishing standardized safety management systems.",
       "image": "",
       "blocks": {
         "block_1": {
-          "title": "ViViD 交通違規",
+          "title": "ViViD Traffic Violations",
           "subtitle": "",
-          "content": "ViViD 交通違規是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識車輛違規行為，例如闖紅燈、逆向行駛、違規停車等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "content": "ViViD traffic violations are one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify vehicle violations, such as running red lights, driving in the wrong direction, illegal parking, etc., and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
           "image": ""
         },
         "block_2": {
-          "title": "OmniGuard 即時風險警示",
+          "title": "OmniGuard Real-time Risk Alerts",
           "subtitle": "",
-          "content": "OmniGuard 即時風險警示是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如急煞、急加速、急轉彎等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "content": "OmniGuard real-time risk alert is one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify driving behaviors, such as sudden braking, sudden acceleration, and sharp turns, and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
           "image": ""
         },
         "block_3": {
           "title": "DriverCare",
           "subtitle": "",
-          "content": "DriverCare 是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如打哈欠、分心、手機操作等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
+          "content": "DriverCare is one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify driving behaviors, such as yawning, distraction, and mobile phone operation, and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
           "image": ""
         }
       }
@@ -306,29 +329,112 @@
   },
   "ApiServicePage": {
     "main": {
-      "title": "API Integration",
-      "subtitle": "",
+      "title": "Powerful Fleet Intelligence API",
+      "subtitle": "Integrate AI-powered visual analytics and fleet management capabilities directly into your existing systems",
       "image": "",
       "slogan": ""
     },
-    "features": [
-      {
-        "title": "",
-        "content": "",
-        "imageSrc": ""
+    "benefitSection": {
+      "title": "",
+      "content": "",
+      "imageSrc": "",
+      "benefits": {
+        "benefit_1": {
+          "title": "Flexible Integration",
+          "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
+          "icon": ""
+        },
+        "benefit_2": {
+          "title": "Flexible Integration",
+          "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
+          "icon": ""
+        },
+        "benefit_3": {
+          "title": "Flexible Integration",
+          "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
+          "icon": ""
+        }
       }
-    ]
+    }
   },
   "HardwarePage": {
     "main": {
       "title": "AI Box + Cameras",
       "subtitle": "AI Box + Cameras",
-      "image": "/products/Hardware-01.png"
+      "image": "",
+      "slogan": ""
+    },
+    "aiBox": {
+      "features": [
+        {
+          "title": "Edge AI Visual-based Safety",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "GPS Realtime Tracking",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Firmware OTA Update",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Video Offline Storage",
+          "content": "",
+          "imageSrc": ""
+        }
+      ]
+    },
+    "streetFacingCam": {
+      "features": [
+        {
+          "title": "1080P High Resolution",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Video Retrieval",
+          "content": "Access and retrieve video footage wirelessly for event analysis.",
+          "imageSrc": ""
+        },
+        {
+          "title": "Firmware OTA Update",
+          "content": "",
+          "imageSrc": ""
+        }
+      ]
+    },
+    "driverFacingCam": {
+      "features": [
+        {
+          "title": "1080P High Resolution",
+          "content": "",
+          "imageSrc": ""
+        },
+        {
+          "title": "Night Vision",
+          "content": "AI-powered vision ensures precise operation 24/7.",
+          "imageSrc": ""
+        },
+        {
+          "title": "Video Retrieval",
+          "content": "Access and retrieve video footage wirelessly for event analysis.",
+          "imageSrc": ""
+        },
+        {
+          "title": "Firmware OTA Update",
+          "content": "",
+          "imageSrc": ""
+        }
+      ]
     }
   },
   "GuidePage": {
     "main": {
-      "title": "Guide",
+      "title": "User Guide",
       "subtitle": "",
       "image": "",
       "slogan": ""
@@ -340,6 +446,76 @@
       "subtitle": "",
       "image": "",
       "slogan": ""
+    }
+  },
+  "AboutPage": {
+    "main": {
+      "title": "About Us",
+      "subtitle": "About OmniEyes",
+      "image": "/about-page/about-page-bg.png",
+      "slogan": ""
+    },
+    "introSection": {
+      "title": "OmniEyes Technology",
+      "subtitle": "OmniEyes Technology is a startup company focused on AI fleet management solutions. Our mission is to improve fleet safety, efficiency, and sustainability through AI image recognition technology.",
+      "content": "Our AI fleet management system, MyFleet, integrates AI image recognition technology, real-time vehicle positioning, driving dynamics analysis, vehicle maintenance reminders, and other functions to assist fleet managers in risk management and reduce operating costs.",
+      "image": "/about-page/about-page-team.png"
+    },
+    "founderSection": {
+      "title": "Co-Founders and Management Team",
+      "subtitle": "The team was established in 2017 with the assistance of the Ministry of Science and Technology's Value Creation Program (TRUST-U) by three professors from National Taiwan University. Our team has top-notch AI and software capabilities, as well as professional business development and management talents, and is now gradually growing into a competitive startup company.",
+      "team": {
+        "member1": {
+          "name": "Chun-Ting Chou",
+          "title": "CEO and Co-Founder",
+          "description": "Professor at National Taiwan University, with 20 years of experience in wireless communications, IoT, and edge computing. He holds over 30 patents in the field of wireless communication protocols from IEEE and ECMA standards. CEO Chou has received numerous awards, including the Young Oversea Scholar Award, the Pan Wen Yuan IoT Innovation Award, the Ministry of Science and Technology Entrepreneurship Pioneer Award, and the National Taiwan University Academic Contribution Award."
+        },
+        "member2": {
+          "name": "Tyson King",
+          "title": "CCO",
+          "description": "Specializes in developing effective market entry strategies and has leadership experience in Fortune 500 companies and successful tech startups that have been acquired or gone public. Focuses on wireless communications, IoT platforms, and artificial intelligence solutions."
+        },
+        "member3": {
+          "name": "Ai-Jun Pang",
+          "title": "Co-Founder",
+          "description": "Professor at National Taiwan University, with 20 years of experience in multimedia networks and mobile communications. Professor Pang is an IEEE Fellow and a recipient of the IEEE Women in Vehicle Technology Award, the Ministry of Science and Technology Outstanding Research Award, and the Pan Wen Yuan Foundation-IoT Innovation Award."
+        },
+        "member4": {
+          "name": "Shou-De Lin",
+          "title": "Co-Founder",
+          "description": "Professor at National Taiwan University, with 20 years of experience in artificial intelligence, machine learning (ML), and natural language processing. He has received the Google Research Award, the Microsoft Research Award, and 7 championships in the ACM KDD Cup. He previously served as the Chief Scientist at Appier, leading the AI scientist team to promote the implementation of AI, and has received many corporate awards."
+        },
+        "member5": {
+          "name": "Szu-Hang Wu",
+          "title": "CFO",
+          "description": "Has over 20 years of experience in finance in accounting firms, banking, and retail industries, focusing primarily on business planning and forecasting, financial management, internal control, and risk management."
+        }
+      }
+    },
+    "boardSection": {
+      "title": "BOARD OF DIRECTORS",
+      "directors": {
+        "director1": {
+          "name": "Shu-Chen Lin",
+          "description": "Director and Vice President of Fubon Financial Holdings Venture Capital Co., Ltd. Carey has over 20 years of experience in venture capital, strategic investment, and mergers and acquisitions. In addition to investing in the technology, retail, media, sports, entertainment, and renewable energy industries, Carey has also facilitated the establishment of new businesses such as momo Shopping Channel and momo Kids Channel. She has also executed several M&A transactions for the Fubon Group. Carey also represents Fubon Financial Holdings Venture Capital as a board member of its portfolio companies (mainly renewable energy, infrastructure, and technology companies)."
+        },
+        "director2": {
+          "name": "Szu-Pen Wu",
+          "description": "Senior Special Assistant to the Chairman of Wistron Corporation. Responsible for early-stage startup investments within the company. He previously served as President of Wistron Optronics and General Manager of Wistron Optronics Business Unit. He has extensive experience in product marketing, business development, and operations in the hardware industry."
+        },
+        "director3": {
+          "name": "Shou-De Lin",
+          "description": "Professor at National Taiwan University, with 20 years of experience in artificial intelligence, machine learning (ML), and natural language processing. He has received the Google Research Award, the Microsoft Research Award, and 7 championships in the ACM KDD Cup. He previously served as the Chief Scientist at Appier, leading the AI scientist team to promote the implementation of AI, and has received many corporate awards."
+        },
+        "director4": {
+          "name": "Chieh-Chih Cheng",
+          "description": "Founder and host of Shin Law International Law Firm, specializing in handling various civil and criminal litigation, non-litigation, intellectual property, or arbitration cases. He has published several law-related books. He serves as a lecturer in civil and commercial law at the Department of Finance at Yuan Ze University, a consultant lawyer for public sector, an arbitrator of the Arbitration Association (engineering category), a legal advisor to the National Federation of Pharmacists Associations of the Republic of China, the National Federation of Western Medicine Commercial Associations, and a member of the Highway Bus Passenger Transport Review Committee of the Directorate General of Highways, Ministry of Transportation and Communications."
+        }
+      }
+    },
+    "teamSection": {
+      "title": "Our Team",
+      "content": "OmniEyes was established in 2019 by leading venture capital and the National Development Fund, specializing in innovative solutions using mobile communications and artificial intelligence. The OmniEyes team was founded in 2017 by three professors from National Taiwan University, evolving from a renowned university in Taiwan to a unicorn startup (TRUST-U), and is now gradually becoming a truly competitive startup company with top-notch artificial intelligence and software capabilities, as well as professional business development and management."
     }
   }
 }

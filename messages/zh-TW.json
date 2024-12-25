@@ -230,12 +230,12 @@
     "resourceItems": {
       "item_1": {
         "name": "使用指南",
-        "href": "",
+        "href": "/",
         "description": ""
       },
       "item_2": {
         "name": "部落格",
-        "href": "",
+        "href": "/",
         "description": ""
       }
     },
