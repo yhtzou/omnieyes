@@ -101,7 +101,7 @@ export default function HeavyTruck() {
   const myFleetFeatures = solutions?.myFleetFeatures;
 
   return (
-    <div className="flex flex-col items-center divide-y divide-red-300">
+    <div className="flex flex-col items-center">
       {/* main_section */}
       <div className="relative w-full scroll-m-20">
         <div className="absolute inset-0 bg-black/60" />
