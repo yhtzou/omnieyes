@@ -30,7 +30,7 @@ function CallToAction() {
 function TopCallToAction({ className }: { className?: string }) {
   return (
     <div className={cn("grid w-full grid-cols-2 gap-8 py-4", className)}>
-      <div className="hidden">
+      <div className="">
         <video
           autoPlay
           muted
@@ -43,12 +43,12 @@ function TopCallToAction({ className }: { className?: string }) {
           Your browser does not support the video tag.
         </video>
       </div>
-      <iframe
+      {/* <iframe
         width="560"
         height="400"
         src="https://www.youtube.com/embed/wifjyexAPhU"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      />
+        // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      /> */}
       <div className="">
         <h2 className="text-2xl font-bold">透過 AI，提升您的車隊安全與效率</h2>
         <p>
