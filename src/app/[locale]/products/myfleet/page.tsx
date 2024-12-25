@@ -93,7 +93,7 @@ export default function MyFleet() {
       <div className="container mx-auto my-20">
         <h2 className="mb-12 text-4xl font-semibold">{t("features.title")}</h2>
         <div className="flex flex-col gap-16">
-          {features.map((key, i) => {
+          {features?.map((key, i) => {
             return (
               <div key={i} className="">
                 <TwoColsCard
@@ -116,7 +116,7 @@ export default function MyFleet() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-row justify-start gap-6">
-            {industries.map((key, i) => (
+            {industries?.map((key, i) => (
               <div
                 key={i}
                 className="rounded-xl border border-zinc-200/80 bg-white p-6 text-sm text-zinc-700 transition-shadow hover:shadow-md"
@@ -136,7 +136,7 @@ export default function MyFleet() {
         </div>
         <div className="container mx-auto">
           <div className="flex flex-row justify-start gap-6">
-            {customers.map((key, i) => (
+            {customers?.map((key, i) => (
               <div
                 key={i}
                 className="rounded-xl border border-zinc-200/80 bg-white p-6 text-sm text-zinc-700 transition-shadow hover:shadow-md"

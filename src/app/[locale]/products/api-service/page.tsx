@@ -65,7 +65,7 @@ export default function ApiService() {
       {/* section 1: key benefits */}
       <div className="flex flex-col items-center space-y-12 border-y">
         <div className="grid grid-cols-3 gap-16">
-          {benefits.map((key, index) => (
+          {benefits?.map((key, index) => (
             <Block
               key={index}
               title={t(`benefitSection.benefits.benefit_${key}.title`)}

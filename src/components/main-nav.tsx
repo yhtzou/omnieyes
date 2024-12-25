@@ -24,8 +24,8 @@ export function MainNav() {
     "productItems.aiCopilot",
     "productItems.apiService",
   ] as const;
-  const solutions = 2;
-  const resources = 2;
+  const solutions = [1, 2];
+  const resources = [1, 2];
 
   return (
     <div className="mx-8 hidden w-full md:flex md:justify-between">
@@ -41,7 +41,7 @@ export function MainNav() {
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                  {products.map((key) => (
+                  {products?.map((key) => (
                     <ListItem
                       key={t(`${key}.name`)}
                       title={t(`${key}.name`)}
@@ -60,7 +60,7 @@ export function MainNav() {
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                  {Array.from({ length: solutions }, (_, index) => (
+                  {solutions?.map((_, index) => (
                     <ListItem
                       key={t(`solutionsItems.item_${index + 1}.name`)}
                       title={t(`solutionsItems.item_${index + 1}.name`)}
@@ -78,7 +78,7 @@ export function MainNav() {
               </NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-                  {Array.from({ length: resources }, (_, index) => (
+                  {resources?.map((_, index) => (
                     <ListItem
                       key={t(`resourceItems.item_${index + 1}.name`)}
                       title={t(`resourceItems.item_${index + 1}.name`)}

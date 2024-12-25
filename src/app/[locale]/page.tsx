@@ -88,7 +88,7 @@ function ProductBlock({
       </div>
       {features && (
         <div className="space-y-2.5">
-          {features.map((key, i) => (
+          {features?.map((key, i) => (
             <div key={i} className="text-sm text-zinc-700">
               {key}
             </div>
@@ -153,7 +153,7 @@ export default function HomePage() {
       <div className="flex flex-col items-center space-y-12 py-8">
         <h2 className="text-2xl font-medium">為眾多客戶信任</h2>
         <div className="container mx-auto flex flex-row gap-8">
-          {logos.map((key, index) => {
+          {logos?.map((key, index) => {
             return (
               <div key={index} className="relative h-10 w-40">
                 <Image
@@ -199,7 +199,7 @@ export default function HomePage() {
             />
           </div>
           <div>
-            {painpoints.map((key, index) => (
+            {painpoints?.map((key, index) => (
               <div key={index} className="flex flex-col items-center gap-4">
                 <h3 className="text-2xl font-bold">{key.name}</h3>
                 <p>{key.content}</p>
@@ -221,7 +221,7 @@ export default function HomePage() {
           <p>description</p>
         </div>
         <div className="container mx-auto grid grid-cols-4 gap-4">
-          {products.map((product, index) => (
+          {products?.map((product, index) => (
             <ProductBlock
               key={index}
               href={product.href}
@@ -252,7 +252,7 @@ export default function HomePage() {
           height={1804 / 4}
         />
         <div className="grid grid-cols-3 gap-16">
-          {esg.map((key, index) => (
+          {esg?.map((key, index) => (
             <Block
               key={index}
               title={t(`section_1.blocks.block_${key}.title`)}
@@ -271,7 +271,7 @@ export default function HomePage() {
           </h2>
 
           <div className="col-span-1 flex flex-col gap-8 lg:col-span-2">
-            {reasons.map((key, index) => (
+            {reasons?.map((key, index) => (
               <ReasonBlock
                 key={index}
                 title={t(`section_3.blocks.block_${key}.title`)}

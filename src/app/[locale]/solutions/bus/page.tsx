@@ -223,7 +223,7 @@ export default function Bus() {
             <div className="flex flex-col rounded-xl border border-zinc-200/80 bg-white p-6 transition-shadow hover:shadow-md">
               <div className="mb-4 text-xl font-medium">ViViD 駕駛違規偵測</div>
               <div className="space-y-2.5">
-                {vivid.map((key, i) => (
+                {vivid?.map((key, i) => (
                   <div key={i} className="text-sm text-zinc-700">
                     {key}
                   </div>
@@ -235,7 +235,7 @@ export default function Bus() {
                 OmniGuard 駕駛危險預警
               </div>
               <div className="space-y-2.5">
-                {omniGuard.map((key, i) => (
+                {omniGuard?.map((key, i) => (
                   <div key={i} className="text-sm text-zinc-700">
                     {key}
                   </div>
@@ -252,7 +252,7 @@ export default function Bus() {
                 DriverCare 不當行為偵測
               </div>
               <div className="space-y-2.5">
-                {driverCare.map((key, i) => (
+                {driverCare?.map((key, i) => (
                   <div key={i} className="text-sm text-zinc-700">
                     {key}
                   </div>

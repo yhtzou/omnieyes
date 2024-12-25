@@ -2,45 +2,45 @@
   "HomePage": {
     "main": {
       "title": "Real-time Fleet Intelligence",
-      "subtitle": "",
+      "subtitle": "placeholders",
       "image": "/HomePage/Main-Bg.png",
       "slogan": "Real-time Fleet Intelligence<br></br>for Enhanced <highlight>Safety and Efficiency</highlight>"
     },
     "section_0": {
-      "title": "",
-      "subtitle": "",
-      "content": "",
-      "image": "",
+      "title": "placeholders",
+      "subtitle": "placeholders",
+      "content": "placeholders",
+      "image": "/placeholders.png",
       "blocks": {
         "block_1": {
-          "title": "",
-          "subtitle": "",
-          "content": "",
-          "image": ""
+          "title": "placeholders",
+          "subtitle": "placeholders",
+          "content": "placeholders",
+          "image": "/placeholders.png"
         }
       }
     },
     "section_1": {
       "title": "Transform Your Fleet Management with AI!",
-      "subtitle": "",
+      "subtitle": "placeholders",
       "content": "For commercial fleets, safety, efficiency, and carbon reduction are paramount. OmniEyes delivers a powerful yet intuitive AI-powered fleet management system that effectively reduces operational risks and costs.",
       "image": "/HomePage/HomePage-01.png",
       "blocks": {
         "block_1": {
           "title": "Social Responsibility (Safety)",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Safety is a daily challenge for every commercial fleet. Beyond reducing unnecessary operational costs and accident-related delays, it's the cornerstone of corporate social responsibility.",
           "image": "/HomePage/ESG-S.png"
         },
         "block_2": {
           "title": "Corporate Governance (Efficiency)",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "True efficiency goes beyond pushing drivers to speed up. By leveraging AI to capture experienced drivers' insights and combining them with effective management tools, we empower fleet managers to maximize their team's potential.",
           "image": "/HomePage/ESG-G.png"
         },
         "block_3": {
           "title": "Environmental Protection (Energy Saving)",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "MyFleet combines OBDII interface with AI video analytics to monitor fleet fuel consumption, engine performance, and driving behavior in real-time, helping businesses achieve sustainability goals while reducing operational costs.",
           "image": "/HomePage/ESG-E.png"
         }
@@ -48,87 +48,87 @@
     },
     "section_2": {
       "title": "In the past experience,<br/>have you encountered the following problems?",
-      "subtitle": "",
-      "content": "",
+      "subtitle": "placeholders",
+      "content": "placeholders",
       "image": "/HomePage/HomePage-02.png",
       "blocks": {
         "block_1": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Hardware installation or upgrades not only delay delivery efficiency but also cause delays in system upgrades.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_2": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "In order to improve fleet safety and meet increasingly stringent regulatory requirements, various hardware is continuously purchased, but the functions cannot be integrated with each other.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_3": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Information from different devices and systems cannot be synchronized and integrated in the cloud.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_4": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Equipment failures or human damage cannot be grasped in time.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_5": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Detecting sudden braking, sudden deceleration, or even installing vision assistance or ADAS cannot effectively reduce dangerous driving.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_6": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "The frequent and annoying warning sounds of auxiliary driving do not help improve driving safety, but only distract the driver.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_7": {
           "title": "Fleet Management Boss",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "A large amount of cloud data and original images or data will only increase the burden of daily operations and cannot provide fleet management personnel to take immediate action.",
-          "image": ""
+          "image": "/placeholders.png"
         }
       }
     },
     "section_3": {
       "title": "Why Choose OmniEyes?",
-      "subtitle": "",
-      "content": "",
-      "image": "",
+      "subtitle": "placeholders",
+      "content": "placeholders",
+      "image": "/placeholders.png",
       "blocks": {
         "block_1": {
           "title": "Rapid Integration, Unlimited Scalability",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Every AI feature in OmniEyes is built on modular software architecture, enabling quick integration and unlimited upgrade potential.",
           "image": "/HomePage/Why-OmniEyes-01.png"
         },
         "block_2": {
           "title": "Seamless Sensor Integration",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Our robust hardware platform connects with various sensors and peripheral devices, synchronizing all operational and fleet management data at the vehicle edge, streamlining data processing and reducing manpower requirements.",
           "image": "/HomePage/Why-OmniEyes-02.png"
         },
         "block_3": {
           "title": "Information Integration",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "MyFleet's interface consolidates all essential information. Access vehicle status, driving behavior, and sensor data with just a few clicks, combined with temporal and location data for immediate action.",
           "image": "/HomePage/Why-OmniEyes-03.png"
         },
         "block_4": {
           "title": "Reduced Fleet Costs",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "OmniEyes monitors traffic violations and risky driving behavior in real-time, integrated with driver education platforms. These recordings serve as valuable training materials, effectively reducing training costs.",
           "image": "/HomePage/Why-OmniEyes-04.png"
         },
         "block_5": {
           "title": "Clear, Consistent Voice Prompts",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "Busy deliveries are stressful enough, and with clear and consistent voice prompts, drivers only get help when they need it most.",
           "image": "/HomePage/Why-OmniEyes-05.png"
         }
@@ -136,43 +136,43 @@
     },
     "section_4": {
       "title": "All-in-One Management Platform: Break Free from Limitations",
-      "subtitle": "",
+      "subtitle": "placeholders",
       "content": "OmniEyes delivers powerful AI capabilities, seamlessly integrating essential fleet functions including fuel efficiency tracking, carbon footprint monitoring, mileage reports, real-time positioning, POD (Proof of Delivery), and video search. Through cloud computing and edge computing, we offer customizable service triggers, parameters, and feature settings, enabling you to easily create a tailored management suite and control center for your fleet.",
       "image": "/HomePage/HomePage-03.png",
       "blocks": {
         "block_1": {
-          "title": "",
-          "subtitle": "",
-          "content": "",
-          "image": ""
+          "title": "placeholders",
+          "subtitle": "placeholders",
+          "content": "placeholders",
+          "image": "/placeholders.png"
         }
       }
     },
     "section_5": {
       "title": "Media Coverage",
-      "subtitle": "",
-      "content": "",
-      "image": "",
+      "subtitle": "placeholders",
+      "content": "placeholders",
+      "image": "/placeholders.png",
       "blocks": {
         "block_1": {
           "title": "2020 Meet Taipei Startup Festival-Top 30 Neo Star",
-          "subtitle": "",
-          "content": "",
-          "image": ""
+          "subtitle": "placeholders",
+          "content": "placeholders",
+          "image": "/placeholders.png"
         }
       }
     },
     "section_6": {
       "title": "Partners",
-      "subtitle": "",
-      "content": "",
-      "image": "",
+      "subtitle": "placeholders",
+      "content": "placeholders",
+      "image": "/placeholders.png",
       "blocks": {
         "block_1": {
           "title": "2020 Meet Taipei Startup Festival-Top 30 Neo Star",
-          "subtitle": "",
-          "content": "",
-          "image": ""
+          "subtitle": "placeholders",
+          "content": "placeholders",
+          "image": "/placeholders.png"
         }
       }
     }
@@ -218,12 +218,12 @@
       "item_1": {
         "name": "School Bus",
         "href": "/solutions/bus",
-        "description": ""
+        "description": "placeholders"
       },
       "item_2": {
         "name": "DAF Heavy Truck",
         "href": "/solutions/heavy-truck",
-        "description": ""
+        "description": "placeholders"
       }
     },
     "resource": "Resource",
@@ -231,17 +231,16 @@
       "item_1": {
         "name": "User Guide",
         "href": "/",
-        "description": ""
+        "description": "placeholders"
       },
       "item_2": {
         "name": "Blog",
         "href": "/",
-        "description": ""
+        "description": "placeholders"
       }
     },
     "about": "About Us"
   },
-  "SiteFooter": {},
   "MyFleetPage": {
     "main": {
       "title": "MyFleet - The Next Generation AI Fleet Management Platform",
@@ -255,7 +254,7 @@
     },
     "features": {
       "title": "MyFleet Core Features",
-      "subtitle": "",
+      "subtitle": "placeholders",
       "feature_1": {
         "title": "Real-time tracking",
         "content": "MyFleet's map interface presents comprehensive fleet asset status on a single screen. Managers can quickly locate specific vehicles through multiple filtering options, monitoring vehicle locations, task execution status, and violation alerts in real-time.",
@@ -298,31 +297,31 @@
       "title": "AI Copilot",
       "subtitle": "Three major AI modules to help you improve fleet safety",
       "image": "/HomePage/HomePage-03.png",
-      "slogan": ""
+      "slogan": "placeholders"
     },
     "section_1": {
       "title": "AI Copilot",
-      "subtitle": "",
+      "subtitle": "placeholders",
       "content": "AI Copilot is an AI driving assistance system created by OmniEyes for fleet managers. Through AI image recognition technology, it analyzes driving behavior in real time, provides driving risk warnings, and assists fleet managers in establishing standardized safety management systems.",
-      "image": "",
+      "image": "/placeholders.png",
       "blocks": {
         "block_1": {
           "title": "ViViD Traffic Violations",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "ViViD traffic violations are one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify vehicle violations, such as running red lights, driving in the wrong direction, illegal parking, etc., and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_2": {
           "title": "OmniGuard Real-time Risk Alerts",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "OmniGuard real-time risk alert is one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify driving behaviors, such as sudden braking, sudden acceleration, and sharp turns, and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
-          "image": ""
+          "image": "/placeholders.png"
         },
         "block_3": {
           "title": "DriverCare",
-          "subtitle": "",
+          "subtitle": "placeholders",
           "content": "DriverCare is one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify driving behaviors, such as yawning, distraction, and mobile phone operation, and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
-          "image": ""
+          "image": "/placeholders.png"
         }
       }
     }
@@ -332,27 +331,27 @@
       "title": "Powerful Fleet Intelligence API",
       "subtitle": "Integrate AI-powered visual analytics and fleet management capabilities directly into your existing systems",
       "image": "/bg/bg-03.jpg",
-      "slogan": ""
+      "slogan": "placeholders"
     },
     "benefitSection": {
-      "title": "",
-      "content": "",
-      "imageSrc": "",
+      "title": "placeholders",
+      "content": "placeholders",
+      "imageSrc": "/placeholders.png",
       "benefits": {
         "benefit_1": {
           "title": "Flexible Integration",
           "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
-          "icon": ""
+          "icon": "/placeholders.png"
         },
         "benefit_2": {
           "title": "Flexible Integration",
           "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
-          "icon": ""
+          "icon": "/placeholders.png"
         },
         "benefit_3": {
           "title": "Flexible Integration",
           "content": "Native integration with existing fleet management systems. Multiple implementation options (REST API, SDK, WebHooks) Scalable architecture for fleets of any size",
-          "icon": ""
+          "icon": "/placeholders.png"
         }
       }
     }
@@ -362,29 +361,29 @@
       "title": "AI Box + Cameras",
       "subtitle": "AI Box + Cameras",
       "image": "/bg/bg-02.jpg",
-      "slogan": ""
+      "slogan": "placeholders"
     },
     "aiBox": {
       "features": [
         {
           "title": "Edge AI Visual-based Safety",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         },
         {
           "title": "GPS Realtime Tracking",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         },
         {
           "title": "Firmware OTA Update",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         },
         {
           "title": "Video Offline Storage",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         }
       ]
     },
@@ -392,18 +391,18 @@
       "features": [
         {
           "title": "1080P High Resolution",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         },
         {
           "title": "Video Retrieval",
           "content": "Access and retrieve video footage wirelessly for event analysis.",
-          "imageSrc": ""
+          "imageSrc": "placeholders"
         },
         {
           "title": "Firmware OTA Update",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         }
       ]
     },
@@ -411,23 +410,23 @@
       "features": [
         {
           "title": "1080P High Resolution",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         },
         {
           "title": "Night Vision",
           "content": "AI-powered vision ensures precise operation 24/7.",
-          "imageSrc": ""
+          "imageSrc": "placeholders"
         },
         {
           "title": "Video Retrieval",
           "content": "Access and retrieve video footage wirelessly for event analysis.",
-          "imageSrc": ""
+          "imageSrc": "placeholders"
         },
         {
           "title": "Firmware OTA Update",
-          "content": "",
-          "imageSrc": ""
+          "content": "placeholders",
+          "imageSrc": "placeholders"
         }
       ]
     }
@@ -435,17 +434,17 @@
   "GuidePage": {
     "main": {
       "title": "User Guide",
-      "subtitle": "",
-      "image": "",
-      "slogan": ""
+      "subtitle": "placeholders",
+      "image": "/placeholders.png",
+      "slogan": "placeholders"
     }
   },
   "Blog": {
     "main": {
       "title": "Blog",
-      "subtitle": "",
-      "image": "",
-      "slogan": ""
+      "subtitle": "placeholders",
+      "image": "/placeholders.png",
+      "slogan": "placeholders"
     }
   },
   "AboutPage": {
@@ -453,7 +452,7 @@
       "title": "About Us",
       "subtitle": "About OmniEyes",
       "image": "/about-page/about-page-bg.png",
-      "slogan": ""
+      "slogan": "placeholders"
     },
     "introSection": {
       "title": "OmniEyes Technology",
