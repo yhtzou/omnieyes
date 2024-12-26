@@ -1,7 +1,22 @@
 import AiModules from "@/components/ai-modules";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "AiCopilotPage" });
+
+  return {
+    title: t("main.title"),
+    description: t("main.description"),
+  };
+}
 
 export default function AiCopilot() {
   const t = useTranslations("AiCopilotPage");

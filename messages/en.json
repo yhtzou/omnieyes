@@ -178,7 +178,8 @@
     }
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "OmniEyes - Visual-based AI Fleet Management Solution",
+    "description": "OmniEyes is a leading AI fleet management solution provider. Our mission is to enhance fleet safety, efficiency, and sustainability through AI-powered visual analytics."
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -245,6 +246,7 @@
     "main": {
       "title": "MyFleet - The Next Generation AI Fleet Management Platform",
       "subtitle": "Enhance safety, digitize workflows, and eliminate redundant tasks by converting them into automated notifications.",
+      "description": "MyFleet is a comprehensive AI fleet management platform that integrates AI image recognition technology, real-time vehicle positioning, driving dynamics analysis, vehicle maintenance reminders, and other functions to assist fleet managers in risk management and reduce operating costs.",
       "image": "/bg/bg-01.jpg"
     },
     "section_1": {
@@ -296,6 +298,7 @@
     "main": {
       "title": "AI Copilot",
       "subtitle": "Three major AI modules to help you improve fleet safety",
+      "description": "AI Copilot is an AI driving assistance system created by OmniEyes for fleet managers. Through AI image recognition technology, it analyzes driving behavior in real time, provides driving risk warnings, and assists fleet managers in establishing standardized safety management systems.",
       "image": "/HomePage/HomePage-03.png",
       "slogan": "placeholders"
     },
@@ -330,6 +333,7 @@
     "main": {
       "title": "Powerful Fleet Intelligence API",
       "subtitle": "Integrate AI-powered visual analytics and fleet management capabilities directly into your existing systems",
+      "description": "OmniEyes' API service provides a powerful set of tools for integrating AI-powered visual analytics and fleet management capabilities directly into your existing systems. Our RESTful API and SDKs are designed to be easy to use and flexible, allowing you to quickly and easily add advanced fleet management features to your applications.",
       "image": "/bg/bg-03.jpg",
       "slogan": "placeholders"
     },
@@ -360,6 +364,7 @@
     "main": {
       "title": "AI Box + Cameras",
       "subtitle": "AI Box + Cameras",
+      "description": "OmniEyes' AI Box and cameras are designed to provide fleet managers with a comprehensive set of tools for monitoring and managing their vehicles. Our AI Box is a powerful edge computing device that can process large amounts of data in real-time, while our cameras are equipped with advanced image recognition technology that can identify objects and events with high accuracy.",
       "image": "/bg/bg-02.jpg",
       "slogan": "placeholders"
     },
@@ -435,6 +440,7 @@
     "main": {
       "title": "User Guide",
       "subtitle": "placeholders",
+      "description": "placeholders",
       "image": "/placeholders.png",
       "slogan": "placeholders"
     }
@@ -451,6 +457,7 @@
     "main": {
       "title": "About Us",
       "subtitle": "About OmniEyes",
+      "description": "OmniEyes Technology is a startup company focused on AI fleet management solutions. Our mission is to improve fleet safety, efficiency, and sustainability through AI image recognition technology.",
       "image": "/about-page/about-page-bg.png",
       "slogan": "placeholders"
     },

@@ -40,7 +40,8 @@ export async function generateMetadata({ params }: Omit<Props, "children">) {
   const t = await getTranslations({ locale, namespace: "LocaleLayout" });
 
   return {
-    title: t("title"),
+    title: { template: `%s | ${t("title")}`, default: t("title") },
+    description: t("description"),
   };
 }
 

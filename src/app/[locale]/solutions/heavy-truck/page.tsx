@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import pageContent from "@/content.json";
 import { Icons } from "@/components/icons";
+import { getTranslations } from "next-intl/server";
 
 function PainpointItem({
   title,
@@ -59,6 +60,20 @@ function MyFleetFeatureItem({
       <p className="text-lg leading-relaxed text-gray-700">{description}</p>
     </div>
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "MyFleetPage" });
+
+  return {
+    title: t("main.title"),
+    description: t("main.description"),
+  };
 }
 
 export default function HeavyTruck() {

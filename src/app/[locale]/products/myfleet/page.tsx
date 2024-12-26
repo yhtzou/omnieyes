@@ -3,7 +3,22 @@ import { AskForQuotation, CallToAction } from "@/components/call-to-action";
 import TwoColsCard from "@/components/two-col-card";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "MyFleetPage" });
+
+  return {
+    title: t("main.title"),
+    description: t("main.description"),
+  };
+}
 
 export default function MyFleet() {
   const t = useTranslations("MyFleetPage");

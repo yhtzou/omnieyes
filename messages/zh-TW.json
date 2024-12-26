@@ -178,7 +178,8 @@
     }
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "動見科技 - 台灣領先的 AI 車隊管理解決方案",
+    "description": "動見科技是台灣領先的 AI 車隊管理平台，我們的使命是透過人工智慧驅動的視覺分析來提高車隊的安全性、效率和永續性。"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -245,6 +246,7 @@
     "main": {
       "title": "MyFleet – 新世代 AI 車隊管理平台",
       "subtitle": "透過主動通知提升安全性、數位化工作流程並減少重複性工作",
+      "description": "MyFleet 是動見科技為車隊管理者打造的 AI 車隊管理平台，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
       "image": "/bg/bg-01.jpg"
     },
     "section_1": {
@@ -296,6 +298,7 @@
     "main": {
       "title": "AI Copilot",
       "subtitle": "三大 AI 模組，助您提升車隊安全",
+      "description": "AI Copilot 是動見科技為車隊管理者打造的 AI 駕駛輔助系統，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
       "image": "/HomePage/HomePage-03.png",
       "slogan": "placeholders"
     },
@@ -330,6 +333,7 @@
     "main": {
       "title": "強大的車隊智慧 API",
       "subtitle": "Integrate AI-powered visual analytics and fleet management capabilities directly into your existing systems",
+      "description": "OmniEyes API Service is a set of RESTful APIs that allow you to integrate AI-powered visual analytics and fleet management capabilities directly into your existing systems. With OmniEyes API Service, you can easily access and manage your fleet data, and build custom applications that meet your unique business needs.",
       "image": "/bg/bg-03.jpg",
       "slogan": "placeholders"
     },
@@ -360,6 +364,7 @@
     "main": {
       "title": "AI Box + Cameras",
       "subtitle": "AI Box + Cameras",
+      "description": "OmniEyes AI Box + Cameras is a powerful hardware solution that combines AI-powered visual analytics and fleet management capabilities in a single device. With OmniEyes AI Box + Cameras, you can easily monitor and manage your fleet in real-time, and improve safety, efficiency, and sustainability.",
       "image": "/bg/bg-02.jpg",
       "slogan": "placeholders"
     },
@@ -435,6 +440,7 @@
     "main": {
       "title": "使用指南",
       "subtitle": "placeholders",
+      "description": "placeholders",
       "image": "/placeholders.png",
       "slogan": "placeholders"
     }
@@ -451,6 +457,7 @@
     "main": {
       "title": "關於我們",
       "subtitle": "About OmniEyes",
+      "description": "OmniEyes is a leading provider of AI-powered fleet management solutions. Our mission is to improve fleet safety, efficiency, and sustainability through AI-powered visual analytics.",
       "image": "/about-page/about-page-bg.png",
       "slogan": "placeholders"
     },

@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import Image from "next/image";
 
 function Block({
@@ -28,6 +29,20 @@ function Block({
       <p className="text-sm text-zinc-600">{content}</p>
     </div>
   );
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "ApiServicePage" });
+
+  return {
+    title: t("main.title"),
+    description: t("main.description"),
+  };
 }
 
 export default function ApiService() {
