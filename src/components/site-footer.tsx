@@ -28,7 +28,7 @@ export default function SiteFooter() {
                 >
                   AI Copilot
                 </Link>
-                <Link
+                {/* <Link
                   href={"/products/hardware"}
                   className="text-zinc-600 hover:text-black"
                 >
@@ -39,7 +39,7 @@ export default function SiteFooter() {
                   className="text-zinc-600 hover:text-black"
                 >
                   API 服務
-                </Link>
+                </Link> */}
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-zinc-400">解決方案</div>

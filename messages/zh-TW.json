@@ -195,22 +195,10 @@
         "href": "/products/myfleet",
         "description": "A modal dialog that interrupts the user with important content and expects a response."
       },
-      "hardware": {
-        "label": "硬體",
-        "name": "AI Box + Cameras",
-        "href": "/products/hardware",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
-      },
       "aiCopilot": {
         "label": "AI",
         "name": "AI Copilot",
         "href": "/products/ai-copilot",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
-      },
-      "apiService": {
-        "label": "其他",
-        "name": "API 整合",
-        "href": "/products/api-service",
         "description": "A modal dialog that interrupts the user with important content and expects a response."
       }
     },

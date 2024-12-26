@@ -20,12 +20,12 @@ export function MainNav() {
   const t = useTranslations("MainNav");
   const products = [
     "productItems.myFleet",
-    "productItems.hardware",
     "productItems.aiCopilot",
-    "productItems.apiService",
+    // "productItems.hardware",
+    // "productItems.apiService",
   ] as const;
   const solutions = [1, 2];
-  const resources = [1, 2];
+  // const resources = [1, 2];
 
   return (
     <div className="mx-8 hidden w-full md:flex md:justify-between">
@@ -72,7 +72,7 @@ export function MainNav() {
                 </ul>
               </NavigationMenuContent>
             </NavigationMenuItem>
-            <NavigationMenuItem>
+            {/* <NavigationMenuItem>
               <NavigationMenuTrigger className="bg-transparent">
                 {t("resource")}
               </NavigationMenuTrigger>
@@ -89,7 +89,7 @@ export function MainNav() {
                   ))}
                 </ul>
               </NavigationMenuContent>
-            </NavigationMenuItem>
+            </NavigationMenuItem> */}
             <NavigationMenuItem>
               <Link href="/about" legacyBehavior passHref>
                 <NavigationMenuLink
