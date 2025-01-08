@@ -24,7 +24,7 @@ export function MainNav() {
     // "productItems.hardware",
     // "productItems.apiService",
   ] as const;
-  const solutions = [1, 2];
+  const solutions = [1, 2, 3];
   // const resources = [1, 2];
 
   return (

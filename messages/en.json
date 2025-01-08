@@ -2,23 +2,12 @@
   "HomePage": {
     "main": {
       "title": "Real-time Fleet Intelligence",
-      "subtitle": "placeholders",
+      "subtitle": "A visual based AI Safety for Fleet Management",
       "image": "/HomePage/Main-Bg.png",
       "slogan": "Real-time Fleet Intelligence<br></br>for Enhanced <highlight>Safety and Efficiency</highlight>"
     },
-    "section_0": {
-      "title": "placeholders",
-      "subtitle": "placeholders",
-      "content": "placeholders",
-      "image": "/placeholders.png",
-      "blocks": {
-        "block_1": {
-          "title": "placeholders",
-          "subtitle": "placeholders",
-          "content": "placeholders",
-          "image": "/placeholders.png"
-        }
-      }
+    "customers": {
+      "title": "Trusted By"
     },
     "section_1": {
       "title": "Transform Your Fleet Management with AI!",
@@ -46,57 +35,83 @@
         }
       }
     },
-    "section_2": {
+    "painpoints": {
       "title": "In the past experience,<br/>have you encountered the following problems?",
       "subtitle": "placeholders",
       "content": "placeholders",
       "image": "/HomePage/HomePage-02.png",
-      "blocks": {
-        "block_1": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "Hardware installation or upgrades not only delay delivery efficiency but also cause delays in system upgrades.",
-          "image": "/placeholders.png"
-        },
-        "block_2": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "In order to improve fleet safety and meet increasingly stringent regulatory requirements, various hardware is continuously purchased, but the functions cannot be integrated with each other.",
-          "image": "/placeholders.png"
-        },
-        "block_3": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "Information from different devices and systems cannot be synchronized and integrated in the cloud.",
-          "image": "/placeholders.png"
-        },
-        "block_4": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "Equipment failures or human damage cannot be grasped in time.",
-          "image": "/placeholders.png"
-        },
-        "block_5": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "Detecting sudden braking, sudden deceleration, or even installing vision assistance or ADAS cannot effectively reduce dangerous driving.",
-          "image": "/placeholders.png"
-        },
-        "block_6": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "The frequent and annoying warning sounds of auxiliary driving do not help improve driving safety, but only distract the driver.",
-          "image": "/placeholders.png"
-        },
-        "block_7": {
-          "title": "Fleet Management Boss",
-          "subtitle": "placeholders",
-          "content": "A large amount of cloud data and original images or data will only increase the burden of daily operations and cannot provide fleet management personnel to take immediate action.",
-          "image": "/placeholders.png"
+      "painpoint_1": {
+        "name": "Fleet Management Boss",
+        "content": "Hardware installation or upgrades not only delay delivery efficiency but also cause delays in system upgrades."
+      },
+      "painpoint_2": {
+        "name": "Fleet Management Boss",
+        "content": "In order to improve fleet safety and meet increasingly stringent regulatory requirements, various hardware is continuously purchased, but the functions cannot be integrated with each other."
+      },
+      "painpoint_3": {
+        "name": "Fleet Management Boss",
+        "content": "Information from different devices and systems cannot be synchronized and integrated in the cloud."
+      },
+      "painpoint_4": {
+        "name": "Fleet Management Boss",
+        "content": "Equipment failures or human damage cannot be grasped in time."
+      },
+      "painpoint_5": {
+        "name": "Fleet Management Boss",
+        "content": "Detecting sudden braking, sudden deceleration, or even installing vision assistance or ADAS cannot effectively reduce dangerous driving."
+      },
+      "painpoint_6": {
+        "name": "Fleet Management Boss",
+        "content": "The frequent and annoying warning sounds of auxiliary driving do not help improve driving safety, but only distract the driver."
+      },
+      "painpoint_7": {
+        "name": "Fleet Management Boss",
+        "content": "A large amount of cloud data and original images or data will only increase the burden of daily operations and cannot provide fleet management personnel to take immediate action."
+      }
+    },
+    "products": {
+      "title": "Complete Product System",
+      "description": "OmniEyes delivers comprehensive fleet management solutions, combining hardware equipment and software platforms to simplify your fleet asset management",
+      "product_1": {
+        "text": "MyFleet Platform",
+        "href": "/products/myfleet",
+        "features": {
+          "feature_1": "Comprehensive Fleet Management",
+          "feature_2": "Real-time Monitoring",
+          "feature_3": "Driving Behavior Analysis",
+          "feature_4": "Customized Reports"
+        }
+      },
+      "product_2": {
+        "text": "AI Copilot Safety Module",
+        "href": "/products/ai-copilot",
+        "features": {
+          "feature_1": "ViViD",
+          "feature_2": "OmniGuard",
+          "feature_3": "DriverCare"
+        }
+      },
+      "product_3": {
+        "text": "AI Box",
+        "href": "/products/hardware",
+        "features": {
+          "feature_1": "AI Box",
+          "feature_2": "Camera Set",
+          "feature_3": "Digital Tachograph",
+          "feature_4": "IoT Accessory Hub",
+          "feature_5": "Sensors"
+        }
+      },
+      "product_4": {
+        "text": "Other Customized Services",
+        "href": "/products/api-service",
+        "features": {
+          "feature_1": "API Services",
+          "feature_2": "Customized Solutions"
         }
       }
     },
-    "section_3": {
+    "whyOmniEyes": {
       "title": "Why Choose OmniEyes?",
       "subtitle": "placeholders",
       "content": "placeholders",
@@ -193,26 +208,31 @@
         "label": "Platform",
         "name": "MyFleet",
         "href": "/products/myfleet",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
+        "description": "Comprehensive fleet management platform integrating real-time monitoring, behavior analysis, and smart dispatch"
       },
       "aiCopilot": {
         "label": "AI",
         "name": "AI Copilot",
         "href": "/products/ai-copilot",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
+        "description": "AI driving safety module providing real-time risk alerts and behavior analysis"
       }
     },
     "solutions": "Solutions",
     "solutionsItems": {
       "item_1": {
-        "name": "School Bus",
-        "href": "/solutions/bus",
-        "description": "placeholders"
+        "name": "General",
+        "href": "/solutions/general",
+        "description": "Basic management and safety solutions suitable for all fleet types"
       },
       "item_2": {
-        "name": "DAF Heavy Truck",
+        "name": "Bus",
+        "href": "/solutions/bus",
+        "description": "Safety management system for buses with real-time notifications and location tracking"
+      },
+      "item_3": {
+        "name": "Heavy Truck",
         "href": "/solutions/heavy-truck",
-        "description": "placeholders"
+        "description": "Specialized solution for heavy vehicles enhancing safety monitoring and route management"
       }
     },
     "resource": "Resource",
@@ -280,6 +300,35 @@
         "content": "MyFleet offers maximum flexibility in map applications. Fleet operators can create and manage custom locations, utilizing these landmarks for vehicle dwell time statistics, event triggers, and arrival notifications, providing a fully customizable solution for location-based fleet management needs.",
         "image": "/products/MyFleet-自訂地標應用.png"
       }
+    },
+    "solutions": {
+      "main": {
+        "title": "Solutions",
+        "subtitle": "subtitle"
+      },
+      "solution_1": {
+        "title": "Bus",
+        "href": "/solutions/bus"
+      },
+      "solution_2": {
+        "title": "Truck",
+        "href": "/solutions/heavy-truck"
+      }
+    },
+    "product_overview": {
+      "title": "MyFleet Fleet Management Platform",
+      "software": {
+        "title": "AI Copilot (Software)"
+      },
+      "hardware": {
+        "title": "AI Box (Hardware)"
+      }
+    },
+    "aiModules": {
+      "main": {
+        "title": "AI Safety Copilot",
+        "subtitle": "subtitle"
+      }
     }
   },
   "AiCopilotPage": {
@@ -314,6 +363,12 @@
           "content": "DriverCare is one of the core functions of AI Copilot. Through AI image recognition technology, it can instantly identify driving behaviors, such as yawning, distraction, and mobile phone operation, and automatically record relevant images and data to assist fleet managers in establishing standardized safety management systems.",
           "image": "/placeholders.png"
         }
+      }
+    },
+    "aiModules": {
+      "main": {
+        "title": "AI Safety Copilot",
+        "subtitle": "subtitle"
       }
     }
   },
@@ -520,6 +575,311 @@
     "teamSection": {
       "title": "Our Team",
       "content": "OmniEyes was established in 2019 by leading venture capital and the National Development Fund, specializing in innovative solutions using mobile communications and artificial intelligence. The OmniEyes team was founded in 2017 by three professors from National Taiwan University, evolving from a renowned university in Taiwan to a unicorn startup (TRUST-U), and is now gradually becoming a truly competitive startup company with top-notch artificial intelligence and software capabilities, as well as professional business development and management."
+    }
+  },
+  "BusPage": {
+    "main": {
+      "title": "School Bus",
+      "subtitle": "Enhance Safety, Digitize Workflows, and Reduce Repetitive Tasks through Proactive Notifications",
+      "description": "An AI fleet management platform built by OmniEyes for school bus operators. Through AI video recognition technology, it analyzes driving behavior in real-time, provides driving risk alerts, and helps fleet managers establish standardized safety management systems.",
+      "image": "/solutions/solution-bus-bg.webp"
+    },
+    "painpoints": {
+      "mainTitle": "School Transportation Shouldn't Be a Nightmare for Parents or Students",
+      "points": {
+        "point_1": {
+          "title": "Recurring Accidents at the Same Location",
+          "description": "Multiple collisions at the same spot resulted in two student injuries and class reduction by the Education Bureau."
+        },
+        "point_2": {
+          "title": "Driver Health Issues",
+          "description": "A school bus driver's health condition led to a guardrail collision, resulting in six students being hospitalized."
+        },
+        "point_3": {
+          "title": "Dangerous Driving Behavior",
+          "description": "School bus illegally crossed double white lines, terrifying witnesses."
+        }
+      }
+    },
+    "aiFeatures": {
+      "mainTitle": "AI Intelligent System: Comprehensive Protection for Drivers and Students",
+      "features": {
+        "feature_1": {
+          "title": "Red Light Running",
+          "description": "The system monitors traffic light status and issues warnings when drivers are about to run red lights, preventing serious intersection accidents.",
+          "icon": "trafficLight"
+        },
+        "feature_2": {
+          "title": "Distracting",
+          "description": "Using object detection technology, the system identifies if drivers are using phones and provides immediate reminders to prevent distracted driving.",
+          "icon": "phone"
+        },
+        "feature_3": {
+          "title": "Speeding Warning",
+          "description": "The system continuously monitors vehicle speed and issues warnings during prolonged speeding, helping drivers maintain safe speeds.",
+          "icon": "speed"
+        },
+        "feature_4": {
+          "title": "No Stop at Stop Sign",
+          "description": "The system monitors stop signs at intersections without traffic lights and issues warnings when drivers fail to stop, helping prevent intersection collisions.",
+          "icon": "stop"
+        },
+        "feature_5": {
+          "title": "Fatigue",
+          "description": "Using facial recognition technology, the system detects signs of fatigue such as yawning and provides timely reminders to reduce drowsy driving risks.",
+          "icon": "tired"
+        },
+        "feature_6": {
+          "title": "Forward Collision Warning",
+          "description": "The system continuously monitors the distance and speed relative to vehicles ahead, issuing warnings when collision risks arise to help maintain safe following distances.",
+          "icon": "car"
+        }
+      }
+    },
+    "myFleetFeatures": {
+      "mainTitle": "Real-time Monitoring for Parents and School Bus Administrators",
+      "features": {
+        "feature_1": {
+          "title": "LINE Arrival Notifications",
+          "description": "No additional app installation required. Receive arrival notifications via LINE for convenient student pickup and drop-off, eliminating unnecessary waiting."
+        },
+        "feature_2": {
+          "title": "Real-time Location Tracking",
+          "description": "Parents and pickup personnel can track vehicle location and routes in real-time through their browser."
+        },
+        "feature_3": {
+          "title": "Driver Behavior Monitoring",
+          "description": "AI system continuously monitors various dangerous behaviors, providing school administrators with hotspot analysis and driver training tools to maintain good driving habits and prevent accidents."
+        }
+      }
+    }
+  },
+  "TruckPage": {
+    "main": {
+      "title": "Heavy Truck",
+      "subtitle": "Enhance Safety, Digitize Workflows, and Reduce Repetitive Tasks through Proactive Notifications",
+      "description": "An AI fleet management platform built by OmniEyes for heavy truck operators. Through AI video recognition technology, it analyzes driving behavior in real-time, provides driving risk alerts, and helps fleet managers establish standardized safety management systems.",
+      "image": "/solutions/solution-heavy-truck-02.jpg"
+    },
+    "painpoints": {
+      "mainTitle": "Challenges in Heavy Truck Operations",
+      "image": "/solutions/solution-heavy-truck-01.jpg",
+      "points": {
+        "point_1": {
+          "title": "High Accident Risk and Blind Spots",
+          "description": "Large vehicle size creates numerous blind spots, leading to frequent collision risks during turns and lane changes. With significant mass and longer braking distances, accidents often result in severe casualties, causing substantial losses and potential damage to company reputation."
+        },
+        "point_2": {
+          "title": "Complex Road Rights Restrictions",
+          "description": "Heavy trucks must comply with specific route and time restrictions. Improper route planning can lead to violations, increasing operational costs and risks."
+        },
+        "point_3": {
+          "title": "Long-haul Transport Fatigue",
+          "description": "Extended periods of driving heavy vehicles consume significant physical energy, increasing fatigue-related driving risks and threatening road safety."
+        }
+      }
+    },
+    "aiFeatures": {
+      "mainTitle": "AI Intelligent System: The Best Guardian for Heavy Truck Safety",
+      "features": {
+        "feature_1": {
+          "title": "Speeding Warning",
+          "description": "The system automatically determines speed limits based on road types and continuously monitors compliance. It issues immediate warnings when approaching speed limits and records violations for review through MyFleet.",
+          "icon": "speed"
+        },
+        "feature_2": {
+          "title": "No Stop at Stop Sign",
+          "description": "For unsigned intersections, the system automatically recognizes stop signs, alerts drivers to prepare for deceleration, and monitors complete stops to ensure road safety.",
+          "icon": "stop"
+        },
+        "feature_3": {
+          "title": "Fatigue",
+          "description": "Using advanced facial recognition technology, the system continuously analyzes drivers' eye blinks and mouth movements to detect fatigue symptoms and provide timely rest reminders.",
+          "icon": "tired"
+        },
+        "feature_4": {
+          "title": "No Seat Belt",
+          "description": "The system monitors seatbelt usage from vehicle startup, ensuring drivers remain buckled throughout the journey. It issues immediate alerts if seatbelts are unfastened while driving.",
+          "icon": "seatbelt"
+        },
+        "feature_5": {
+          "title": "Forward Collision Warning",
+          "description": "The system automatically calculates safe following distances based on speed and road conditions, providing early warnings when following distance becomes too close.",
+          "icon": "car"
+        },
+        "feature_6": {
+          "title": "Approaching Traffic Light",
+          "description": "Real-time traffic signal recognition provides advance warnings of changing signals, helping drivers make early deceleration decisions for intersection safety.",
+          "icon": "trafficLight"
+        }
+      }
+    },
+    "myFleetFeatures": {
+      "mainTitle": "MyFleet Special Features",
+      "features": {
+        "feature_1": {
+          "title": "MDVR Driving Vision Assistance",
+          "description": "Multi-camera configuration provides complete cabin panoramic vision, real-time vehicle surroundings display, eliminates blind spots, supports reverse and turn assistance, reduces collision risks, and provides complete video evidence in case of accidents."
+        },
+        "feature_2": {
+          "title": "TPMS Tire Pressure and Temperature Monitoring",
+          "description": "Real-time monitoring of each tire's pressure and temperature, multiple alert thresholds, early anomaly detection, automatic pressure trend recording, maintenance cycle prediction, reduced blowout risk, and extended tire life."
+        },
+        "feature_3": {
+          "title": "Smart Alcohol Testing Management",
+          "description": "Integrates alcohol interlock, ensures zero tolerance for drunk driving, mandatory testing before startup, prevents drunk driving, automatically records test results, complete risk control, immediate reporting of abnormal results for prompt handling."
+        }
+      }
+    }
+  },
+  "GeneralPage": {
+    "main": {
+      "title": "General Fleet",
+      "subtitle": "Enhance Safety, Digitize Workflows, and Reduce Repetitive Tasks through Proactive Notifications",
+      "description": "An AI fleet management platform built by OmniEyes for general fleet operators. Through AI video recognition technology, it analyzes driving behavior in real-time, provides driving risk alerts, and helps fleet managers establish standardized safety management systems.",
+      "image": "/bg/bg-03.jpg"
+    },
+    "painpoints": {
+      "mainTitle": "Daily Fleet Management Challenges",
+      "image": "/solutions/solution-general-01.jpg",
+      "points": {
+        "point_1": {
+          "title": "Low Workforce Management Efficiency",
+          "description": "Complex driver scheduling, time-consuming manual roster planning, and difficult temporary arrangements."
+        },
+        "point_2": {
+          "title": "Difficult Safety Management",
+          "description": "Hard to monitor driving behavior in real-time, challenging to correct dangerous driving habits promptly, and difficult post-accident investigation."
+        },
+        "point_3": {
+          "title": "High Operating Costs",
+          "description": "Difficult to control fuel consumption and maintenance costs effectively, redundant equipment investments with integration challenges, and rising labor costs."
+        }
+      }
+    },
+    "aiFeatures": {
+      "mainTitle": "AI Intelligent System: The Best Assistant for Fleet Management",
+      "features": {
+        "feature_1": {
+          "title": "Red Light Running",
+          "description": "The system monitors traffic signals in real-time and issues warnings when drivers are about to run red lights, effectively preventing serious traffic accidents.",
+          "icon": "trafficLight"
+        },
+        "feature_2": {
+          "title": "No Stop at Stop Sign",
+          "description": "The system automatically recognizes stop signs at unsigned intersections, reminding drivers to slow down and stop in time to prevent accidents.",
+          "icon": "stop"
+        },
+        "feature_3": {
+          "title": "Speeding Warning",
+          "description": "The system continuously monitors vehicle speed and provides immediate alerts when exceeding speed limits, helping drivers maintain safe speeds.",
+          "icon": "speed"
+        },
+        "feature_4": {
+          "title": "Forward Collision Warning",
+          "description": "The system calculates distance from vehicles ahead in real-time, providing early warnings of potential collisions to maintain safe following distances.",
+          "icon": "car"
+        },
+        "feature_5": {
+          "title": "Distracting",
+          "description": "Using AI recognition technology to detect distracted driving behaviors, such as phone usage, providing immediate reminders to ensure driving safety.",
+          "icon": "phone"
+        },
+        "feature_6": {
+          "title": "Fatigue",
+          "description": "The system continuously monitors driver fatigue status, detecting early signs of fatigue and prompting rest breaks to prevent accidents.",
+          "icon": "tired"
+        }
+      }
+    },
+    "myFleetFeatures": {
+      "mainTitle": "MyFleet Core Features",
+      "features": {
+        "feature_1": {
+          "title": "Smart Dispatch Management",
+          "description": "Integrates real-time vehicle location and status information, provides intelligent dispatch suggestions, optimizes route planning, and improves operational efficiency."
+        },
+        "feature_2": {
+          "title": "Vehicle Maintenance Management",
+          "description": "Automatically records maintenance history, provides preventive maintenance reminders, reduces unexpected breakdown risks, and extends vehicle lifespan."
+        },
+        "feature_3": {
+          "title": "Fuel Consumption Analysis",
+          "description": "Monitors fuel consumption data in real-time, analyzes abnormal fuel consumption causes, provides improvement suggestions, and effectively reduces operating costs."
+        }
+      }
+    }
+  },
+  "CTA-Quote": {
+    "title": "Interested in POC and Pricings?",
+    "content": "Share a few details about your fleet management needs and we’ll send you a custom quote.",
+    "button": "Request a Quote"
+  },
+  "CTA": {
+    "title": "Improve your fleet safety and efficiency with AI",
+    "content": "Share a few details about your fleet management needs and we’ll send you a custom quote.",
+    "button": "Schedule a Demo"
+  },
+  "CTA-Video": {
+    "title": "Improve your fleet safety and efficiency with AI",
+    "content": "Share a few details about your fleet management needs and we’ll send you a custom quote.",
+    "button": "Schedule a Demo"
+  },
+  "AI-Modules": {
+    "SFC": "Street-facing Camera",
+    "DFC": "Driver-facing Camera",
+    "module_1": {
+      "title": "ViViD",
+      "function_1": "Red Light Running",
+      "function_2": "No Stop at Stop Sign",
+      "function_3": "Speeding",
+      "function_4": "Idling",
+      "function_5": "Intersection Parking",
+      "function_6": "Bus Stop Parking",
+      "function_7": "Pedestrian Walkway Parking"
+    },
+    "module_2": {
+      "title": "OmniGuard",
+      "function_1": "Approaching Traffic Light",
+      "function_2": "Forward Collision Warning",
+      "function_3": "Speeding Warning",
+      "function_4": "Approaching Stop Sign",
+      "function_5": "Pedestrian Collision Warning",
+      "function_6": "Lane Departure Warning (Coming soon)"
+    },
+    "module_3": {
+      "title": "DriverCare",
+      "function_1": "No Seat Belt",
+      "function_2": "Distracting",
+      "function_3": "Smoking",
+      "function_4": "Fatigue"
+    }
+  },
+  "Footer": {
+    "categories": {
+      "products": {
+        "title": "Products",
+        "items": {
+          "myfleet": "MyFleet",
+          "aiCopilot": "AI Copilot",
+          "hardware": "Hardware",
+          "apiService": "API Service"
+        }
+      },
+      "solutions": {
+        "title": "Solutions",
+        "items": {
+          "general": "General",
+          "bus": "Bus",
+          "heavyTruck": "Heavy Truck"
+        }
+      },
+      "company": {
+        "title": "OmniEyes",
+        "items": {
+          "about": "About Us"
+        }
+      }
     }
   }
 }

@@ -60,11 +60,7 @@ export default function About() {
           <h1 className={cn("mb-2 text-5xl font-bold tracking-tight")}>
             {t("main.title")}
           </h1>
-          <p className="text-lg">
-            OmniEyes 是領先創投和國家發展基金會於 2019
-            年成立的，專門研究利用移動通訊、人工智慧的創新解決方案， OmniEyes
-            的團隊是由三位台灣大學的教授在2017年成立，從台灣聞名的大學發展到獨角獸新創企業（TRUST-U），而現在逐漸成為具有頂尖人工智慧和軟體實力、專業的商業性發展和管理，實實在在富有競爭力的新創公司。
-          </p>
+          <p className="text-lg">{t("main.description")}</p>
         </div>
         {t("main.image") ? (
           <Image

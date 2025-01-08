@@ -49,8 +49,10 @@ export default function AiCopilot() {
       {/* Core AI Modules */}
       <div className="w-full space-y-12 bg-[#fcfcfc] py-28">
         <div className="container mx-auto">
-          <h2 className="mb-2 text-4xl font-semibold">AI 駕駛安全模組</h2>
-          <p>description</p>
+          <h2 className="mb-2 text-4xl font-semibold">
+            {t("aiModules.main.title")}
+          </h2>
+          <p>{t("aiModules.main.subtitle")}</p>
         </div>
         <AiModules />
       </div>

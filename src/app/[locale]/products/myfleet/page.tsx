@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import Image from "next/image";
+import Link from "next/link";
 
 export async function generateMetadata({
   params,
@@ -23,10 +24,7 @@ export async function generateMetadata({
 export default function MyFleet() {
   const t = useTranslations("MyFleetPage");
 
-  const industries = ["一般車隊", "校車接送", "物流車", "冷鏈管理", "達富重車"];
-
-  const customers = ["薇閣中學", "YouBike", "新北市環保局", "台塑貨運"];
-
+  const industries = ["solutions.solution_1", "solutions.solution_2"] as const;
   const features = [
     "features.feature_1",
     "features.feature_2",
@@ -69,14 +67,14 @@ export default function MyFleet() {
             <p>{t("section_1.content")}</p>
             <div className="my-12 mr-8 rounded-xl border border-zinc-200 p-6 text-center">
               <div className="mb-6 text-2xl font-bold">
-                MyFleet 車隊管理平台
+                {t("product_overview.title")}
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div className="min-h-20 place-content-center rounded-xl border border-zinc-200 bg-zinc-50 text-xl">
-                  軟體 AI Copilot
+                  {t("product_overview.software.title")}
                 </div>
                 <div className="min-h-20 place-content-center rounded-xl border border-zinc-200 bg-zinc-50 text-xl">
-                  硬體 AI Box
+                  {t("product_overview.hardware.title")}
                 </div>
               </div>
             </div>
@@ -96,8 +94,10 @@ export default function MyFleet() {
       {/* Core AI Modules */}
       <div className="w-full space-y-12 bg-[#fcfcfc] py-28">
         <div className="container mx-auto">
-          <h2 className="mb-2 text-4xl font-semibold">AI 駕駛安全模組</h2>
-          <p>description</p>
+          <h2 className="mb-2 text-4xl font-semibold">
+            {t("aiModules.main.title")}
+          </h2>
+          <p>{t("aiModules.main.subtitle")}</p>
         </div>
         <AiModules />
       </div>
@@ -126,39 +126,24 @@ export default function MyFleet() {
       {/* Solutions */}
       <div className="w-full space-y-12 bg-[#fcfcfc] py-28">
         <div className="container mx-auto">
-          <h2 className="mb-2 text-4xl font-semibold">產業解決方案</h2>
-          <p>description</p>
+          <h2 className="mb-2 text-4xl font-semibold">
+            {t(`solutions.main.title`)}
+          </h2>
+          <p>{t("solutions.main.subtitle")}</p>
         </div>
         <div className="container mx-auto">
           <div className="flex flex-row justify-start gap-6">
-            {industries?.map((key, i) => (
-              <div
-                key={i}
-                className="rounded-xl border border-zinc-200/80 bg-white p-6 text-sm text-zinc-700 transition-shadow hover:shadow-md"
-              >
-                {key}
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* Case Studies */}
-      <div className="w-full space-y-12 bg-[#fcfcfc] py-28">
-        <div className="container mx-auto">
-          <h2 className="mb-2 text-4xl font-semibold">客戶導入實例</h2>
-          <p>description</p>
-        </div>
-        <div className="container mx-auto">
-          <div className="flex flex-row justify-start gap-6">
-            {customers?.map((key, i) => (
-              <div
-                key={i}
-                className="rounded-xl border border-zinc-200/80 bg-white p-6 text-sm text-zinc-700 transition-shadow hover:shadow-md"
-              >
-                {key}
-              </div>
-            ))}
+            {industries?.map((key, i) => {
+              return (
+                <Link
+                  key={i}
+                  href={t(`${key}.href`)}
+                  className="rounded-xl border border-zinc-200/80 bg-white p-6 text-sm text-zinc-700 transition-shadow hover:shadow-md"
+                >
+                  {t(`${key}.title`)}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </div>

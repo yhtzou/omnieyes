@@ -1,33 +1,32 @@
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
+import { useTranslations } from "next-intl";
 
 function AskForQuotation() {
+  const t = useTranslations("CTA-Quote");
+
   return (
     <div className="w-full bg-blue-400 py-32 text-center text-white">
-      <div className="text-3xl font-bold">Interested in POC and Pricings?</div>
-      <p>
-        Share a few details about your fleet management needs and we’ll send you
-        a custom quote.
-      </p>
-      <Button>Request a Quote</Button>
+      <div className="text-3xl font-bold">{t("title")}</div>
+      <p>{t("content")}</p>
+      <Button>{t("button")}</Button>
     </div>
   );
 }
 
 function CallToAction() {
+  const t = useTranslations("CTA");
   return (
     <div className="w-full bg-blue-400 py-32 text-center text-white">
-      <div className="text-3xl font-bold">透過 AI，提升您的車隊安全與效率</div>
-      <p>
-        Share a few details about your fleet management needs and we’ll send you
-        a custom quote.
-      </p>
-      <Button>安排 Demo</Button>
+      <div className="text-3xl font-bold">{t("title")}</div>
+      <p>{t("content")}</p>
+      <Button>{t("button")}</Button>
     </div>
   );
 }
 
 function TopCallToAction({ className }: { className?: string }) {
+  const t = useTranslations("CTA-Video");
   return (
     <div className={cn("grid w-full grid-cols-2 gap-8 py-4", className)}>
       <div className="">
@@ -50,12 +49,9 @@ function TopCallToAction({ className }: { className?: string }) {
         // allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       /> */}
       <div className="">
-        <h2 className="text-2xl font-bold">透過 AI，提升您的車隊安全與效率</h2>
-        <p>
-          Share a few details about your fleet management needs and we’ll send
-          you a custom quote.
-        </p>
-        <Button>安排 Demo</Button>
+        <h2 className="text-2xl font-bold">{t("title")}</h2>
+        <p>{t("content")}</p>
+        <Button>{t("button")}</Button>
       </div>
     </div>
   );

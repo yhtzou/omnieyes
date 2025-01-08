@@ -2,21 +2,86 @@
   "HomePage": {
     "main": {
       "title": "即時掌握車隊狀況",
-      "subtitle": "placeholders",
+      "subtitle": "台灣領先的 Edge-AI 車隊管理與駕駛安全解決方案",
       "image": "/HomePage/Main-Bg.png",
       "slogan": "即時掌握車隊狀況<br></br>協助車隊<highlight>安全及效率</highlight>的抵達"
     },
-    "section_0": {
-      "title": "placeholders",
+    "customers": {
+      "title": "為眾多客戶信任"
+    },
+    "painpoints": {
+      "title": "在過去的經驗中<br/>您是否也遇到下列問題？",
       "subtitle": "placeholders",
       "content": "placeholders",
-      "image": "/placeholders.png",
-      "blocks": {
-        "block_1": {
-          "title": "placeholders",
-          "subtitle": "placeholders",
-          "content": "placeholders",
-          "image": "/placeholders.png"
+      "image": "/HomePage/HomePage-02.png",
+      "painpoint_1": {
+        "name": "車隊管理老闆",
+        "content": "硬體的安裝或升級不但拖延送貨效率也造成系統升級的延誤。"
+      },
+      "painpoint_2": {
+        "name": "車隊管理老闆",
+        "content": "為了提升車隊安全並符合日益嚴苛的法規要求，不停採購各式硬體但功能卻無法相互整合。"
+      },
+      "painpoint_3": {
+        "name": "車隊管理老闆",
+        "content": "來自不同設備與系統的資訊無法於雲端同步與整合。"
+      },
+      "painpoint_4": {
+        "name": "車隊管理老闆",
+        "content": "設備故障或遭人為破壞無法及時掌握。"
+      },
+      "painpoint_5": {
+        "name": "車隊管理老闆",
+        "content": "偵測急煞車、急減速甚或安裝視野輔助或ADAS也無法有效降低危險駕駛。"
+      },
+      "painpoint_6": {
+        "name": "車隊管理老闆",
+        "content": "輔助駕駛頻繁擾人的各項警示音無助提升行車安全，只會造成駕駛者分心。"
+      },
+      "painpoint_7": {
+        "name": "車隊管理老闆",
+        "content": "大量的雲端數據與原始影像或資料只會加重日常業務負擔，無法提供車隊管理人員採取立即的行動。"
+      }
+    },
+    "products": {
+      "title": "完善的產品體系",
+      "description": "動見科技提供完整的車隊管理解決方案，從硬體設備到軟體平台，協助您輕鬆管理車隊資產",
+      "product_1": {
+        "text": "MyFleet 平台",
+        "href": "/products/myfleet",
+        "features": {
+          "feature_1": "全方位車隊管理",
+          "feature_2": "即時監控",
+          "feature_3": "駕駛行為分析",
+          "feature_4": "客製化報表"
+        }
+      },
+      "product_2": {
+        "text": "AI Copilot 駕駛安全模組",
+        "href": "/products/ai-copilot",
+        "features": {
+          "feature_1": "ViViD",
+          "feature_2": "OmniGuard",
+          "feature_3": "DriverCare"
+        }
+      },
+      "product_3": {
+        "text": "AI Box",
+        "href": "/products/hardware",
+        "features": {
+          "feature_1": "AI Box",
+          "feature_2": "鏡頭組",
+          "feature_3": "數位大餅",
+          "feature_4": "物聯網配件中心",
+          "feature_5": "感測器"
+        }
+      },
+      "product_4": {
+        "text": "其他客製化服務",
+        "href": "/products/api-service",
+        "features": {
+          "feature_1": "API 服務",
+          "feature_2": "客製化解決方案"
         }
       }
     },
@@ -46,57 +111,7 @@
         }
       }
     },
-    "section_2": {
-      "title": "在過去的經驗中<br/>您是否也遇到下列問題？",
-      "subtitle": "placeholders",
-      "content": "placeholders",
-      "image": "/HomePage/HomePage-02.png",
-      "blocks": {
-        "block_1": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "硬體的安裝或升級不但拖延送貨效率也造成系統升級的延誤。",
-          "image": "/placeholders.png"
-        },
-        "block_2": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "為了提升車隊安全並符合日益嚴苛的法規要求，不停採購各式硬體但功能卻無法相互整合。",
-          "image": "/placeholders.png"
-        },
-        "block_3": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "來自不同設備與系統的資訊無法於雲端同步與整合。",
-          "image": "/placeholders.png"
-        },
-        "block_4": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "設備故障或遭人為破壞無法及時掌握。",
-          "image": "/placeholders.png"
-        },
-        "block_5": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "偵測急煞車、急減速甚或安裝視野輔助或ADAS也無法有效降低危險駕駛。",
-          "image": "/placeholders.png"
-        },
-        "block_6": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "輔助駕駛頻繁擾人的各項警示音無助提升行車安全，只會造成駕駛者分心。",
-          "image": "/placeholders.png"
-        },
-        "block_7": {
-          "title": "車隊管理老闆",
-          "subtitle": "placeholders",
-          "content": "大量的雲端數據與原始影像或資料只會加重日常業務負擔，無法提供車隊管理人員採取立即的行動。",
-          "image": "/placeholders.png"
-        }
-      }
-    },
-    "section_3": {
+    "whyOmniEyes": {
       "title": "為什麼選擇 OmniEyes？",
       "subtitle": "placeholders",
       "content": "placeholders",
@@ -193,26 +208,31 @@
         "label": "平台",
         "name": "MyFleet",
         "href": "/products/myfleet",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
+        "description": "全方位車隊管理平台，整合即時監控、行為分析與智慧派遣功能"
       },
       "aiCopilot": {
         "label": "AI",
         "name": "AI Copilot",
         "href": "/products/ai-copilot",
-        "description": "A modal dialog that interrupts the user with important content and expects a response."
+        "description": "AI 駕駛安全模組，提供即時危險預警與行為分析"
       }
     },
     "solutions": "解決方案",
     "solutionsItems": {
       "item_1": {
-        "name": "校車",
-        "href": "/solutions/bus",
-        "description": "placeholders"
+        "name": "一般",
+        "href": "/solutions/general",
+        "description": "適合各類型車隊的基礎管理與安全解決方案"
       },
       "item_2": {
-        "name": "達富重車",
+        "name": "校車",
+        "href": "/solutions/bus",
+        "description": "專為校車打造的安全管理系統，整合即時通知與位置追蹤"
+      },
+      "item_3": {
+        "name": "大型貨車",
         "href": "/solutions/heavy-truck",
-        "description": "placeholders"
+        "description": "針對重型車輛的特殊需求設計，強化安全監控與路權管理"
       }
     },
     "resource": "資源",
@@ -280,6 +300,35 @@
         "content": "MyFleet 在地圖應用上提供了極高的自由度。車隊客戶可以自行標記自訂地標，並且利用地標進行車輛的停留時間統計、事件觸發、車輛抵達通知等應用。 ",
         "image": "/products/MyFleet-自訂地標應用.png"
       }
+    },
+    "solutions": {
+      "main": {
+        "title": "產業解決方案",
+        "subtitle": "subtitle"
+      },
+      "solution_1": {
+        "title": "校車接送",
+        "href": "/solutions/bus"
+      },
+      "solution_2": {
+        "title": "達富重車",
+        "href": "/solutions/heavy-truck"
+      }
+    },
+    "product_overview": {
+      "title": "MyFleet 車隊管理平台",
+      "software": {
+        "title": "Software AI Copilot"
+      },
+      "hardware": {
+        "title": "Hardware AI Box"
+      }
+    },
+    "aiModules": {
+      "main": {
+        "title": "AI 駕駛安全模組",
+        "subtitle": "subtitle"
+      }
     }
   },
   "AiCopilotPage": {
@@ -314,6 +363,12 @@
           "content": "DriverCare 是 AI Copilot 的核心功能之一，透過 AI 影像辨識技術，即時辨識駕駛行為，例如打哈欠、分心、手機操作等，並自動記錄相關影像與數據，協助車隊管理者建立標準化的安全管理制度。",
           "image": "/placeholders.png"
         }
+      }
+    },
+    "aiModules": {
+      "main": {
+        "title": "AI 駕駛安全模組",
+        "subtitle": "subtitle"
       }
     }
   },
@@ -433,6 +488,239 @@
       "slogan": "placeholders"
     }
   },
+  "BusPage": {
+    "main": {
+      "title": "校車",
+      "subtitle": "透過主動通知提升安全性、數位化工作流程並減少重複性工作",
+      "description": "動見科技為校車業者打造的 AI 車隊管理平台，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
+      "image": "/solutions/solution-bus-bg.webp"
+    },
+    "painpoints": {
+      "mainTitle": "上學不該成為家長或學生的夢靨",
+      "points": {
+        "point_1": {
+          "title": "同一地點事故頻傳",
+          "description": "同一地點連續發生碰撞，兩名學生受傷，遭教育局減班。"
+        },
+        "point_2": {
+          "title": "司機身體狀況不佳",
+          "description": "校車駕駛身體不適，自撞護欄，造成六名學生受傷送醫。"
+        },
+        "point_3": {
+          "title": "危險駕駛行為",
+          "description": "校車違規硬切雙白線，目擊駕駛嚇壞。"
+        }
+      }
+    },
+    "aiFeatures": {
+      "mainTitle": "AI 智能系統：提供駕駛與學生全方位護航",
+      "features": {
+        "feature_1": {
+          "title": "闖紅燈偵測",
+          "description": "系統會監控紅綠燈狀態，在駕駛即將闖紅燈時發出警告，將可預防嚴重的路口交通事故。",
+          "icon": "trafficLight"
+        },
+        "feature_2": {
+          "title": "分心駕駛警示",
+          "description": "通過物件偵測技術，偵測駕駛是否正在使用手機，即時提醒以避免分心駕駛的危險。",
+          "icon": "phone"
+        },
+        "feature_3": {
+          "title": "超速提醒",
+          "description": "系統會持續監控車速，在長時間超速時發出警告，有助於駕駛人保持安全車速，避免危險。",
+          "icon": "speed"
+        },
+        "feature_4": {
+          "title": "路口未停等偵測",
+          "description": "系統會監控無交通燈號之路口停等標誌，在駕駛人無視時發出警告，有助於預防路口擦撞的交通事故。",
+          "icon": "stop"
+        },
+        "feature_5": {
+          "title": "疲勞駕駛提醒",
+          "description": "通過臉部識別技術，偵測駕駛人是否有打哈欠等疲勞徵兆，即時提醒以減少疲勞駕駛的危險。",
+          "icon": "tired"
+        },
+        "feature_6": {
+          "title": "危險跟車提醒",
+          "description": "系統會持續監控前車距離與速度，在可能產生碰撞時提出警示，有助於駕駛人保持安全跟車，避免碰撞。",
+          "icon": "car"
+        }
+      }
+    },
+    "myFleetFeatures": {
+      "mainTitle": "家長與校車管理人員全程即時掌握",
+      "features": {
+        "feature_1": {
+          "title": "LINE 到站通知",
+          "description": "無須安裝其他APP，透過LINE 通知即可接收到站通知，方便學生搭乘與家長接送，避免無謂的等待。"
+        },
+        "feature_2": {
+          "title": "即時位置查詢",
+          "description": "家長或接送人員可透過瀏覽器掌握車輛即時位置與軌跡。"
+        },
+        "feature_3": {
+          "title": "駕駛行為監控",
+          "description": "AI系統全時監控各種危險行為，提供校方管理人員熱點分析與駕駛訓練工具，有助於駕駛人保持良好駕駛習慣，避免危險發生。"
+        }
+      }
+    }
+  },
+  "TruckPage": {
+    "main": {
+      "title": "達富重車",
+      "subtitle": "透過主動通知提升安全性、數位化工作流程並減少重複性工作",
+      "description": "動見科技為重車業者打造的 AI 車隊管理平台，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
+      "image": "/solutions/solution-heavy-truck-02.jpg"
+    },
+    "painpoints": {
+      "mainTitle": "重車營運的重重挑戰",
+      "image": "/solutions/solution-heavy-truck-01.jpg",
+      "points": {
+        "point_1": {
+          "title": "嚴重事故風險高 視野死角多",
+          "description": "車身龐大造成駕駛視野死角多，轉彎、變換車道時極易發生擦撞意外。重車質量大、煞車距離長，一旦發生事故往往造成嚴重傷亡，不僅損失慘重，更可能影響公司商譽。"
+        },
+        "point_2": {
+          "title": "複雜路權限制",
+          "description": "重車需遵守特定路線與時段限制，不當路線規劃容易觸法，增加營運成本與風險。"
+        },
+        "point_3": {
+          "title": "長途運輸疲勞",
+          "description": "長時間駕駛重車體力消耗大，疲勞駕駛風險高，威脅行車安全。"
+        }
+      }
+    },
+    "aiFeatures": {
+      "mainTitle": "AI 智能系統：重車安全的最佳守護者",
+      "features": {
+        "feature_1": {
+          "title": "Speeding Warning",
+          "description": "系統依道路類型自動判定重車速限，全程監控車速是否符合規範。當偵測到即將超速時，立即發出警示，協助駕駛及時調整車速；若超速，系統也將記錄違規影像，透過 MyFleet 回顧調閱。",
+          "icon": "speed"
+        },
+        "feature_2": {
+          "title": "No Stop at Stop Sign",
+          "description": "針對無號誌路口，系統自動辨識停等標誌，系統會提前提醒駕駛準備減速，避免因匆促煞車造成危險，並監控車輛是否確實停等，確保道路人車安全。",
+          "icon": "stop"
+        },
+        "feature_3": {
+          "title": "Fatigue",
+          "description": "為預防疲勞駕駛，運用進階臉部辨識技術，持續分析駕駛的眨眼與嘴部活動等指標。一旦發現疲勞徵兆，立即發出警示，及時提醒駕駛適度休息。",
+          "icon": "tired"
+        },
+        "feature_4": {
+          "title": "No Seat Belt",
+          "description": "系統在車輛啟動時即開始監控安全帶使用狀況，確保駕駛全程繫上安全帶。若行駛中解開安全帶，立即發出警示並記錄，培養良好的安全習慣。",
+          "icon": "seatbelt"
+        },
+        "feature_5": {
+          "title": "Forward Collision Warning",
+          "description": "系統會依據車速、路況自動計算安全跟車距離。當與前車距離過近時，提前發出警告，給予足夠的反應時間。",
+          "icon": "car"
+        },
+        "feature_6": {
+          "title": "Approaching Traffic Light",
+          "description": "系統即時辨識路口號誌狀態，提前預警即將轉變的號誌，協助駕駛提前做出減速判斷，確保路口行車安全。",
+          "icon": "trafficLight"
+        }
+      }
+    },
+    "myFleetFeatures": {
+      "mainTitle": "MyFleet 特色功能",
+      "features": {
+        "feature_1": {
+          "title": "MDVR 行車視野輔助",
+          "description": "配置多機位攝影機，提供駕駛艙內完整環景視野、即時顯示車輛周圍狀況，消除視野死角、支援倒車、轉彎輔助功能，降低擦撞風險、事故發生時提供完整影像佐證"
+        },
+        "feature_2": {
+          "title": "TPMS 胎壓胎溫監測",
+          "description": "即時監控每個輪胎的胎壓與溫度、設定多重警戒值，及早發現異常、自動記錄胎壓變化趨勢，預測保養週期、降低爆胎風險，延長輪胎使用壽命"
+        },
+        "feature_3": {
+          "title": "智慧酒測管理",
+          "description": "整合酒精鎖，確保酒駕零容忍、發動前強制酒測，杜絕酒後駕駛、自動記錄測試結果，完整風險管控、異常結果即時通報，立即處理防範"
+        }
+      }
+    }
+  },
+  "GeneralPage": {
+    "main": {
+      "title": "一般車隊",
+      "subtitle": "透過主動通知提升安全性、數位化工作流程並減少重複性工作",
+      "description": "動見科技為一般車隊打造的 AI 車隊管理平台，透過 AI 影像辨識技術，即時分析駕駛行為，提供駕駛風險警示，協助車隊管理者建立標準化的安全管理制度。",
+      "image": "/bg/bg-03.jpg"
+    },
+    "painpoints": {
+      "mainTitle": "車隊管理的日常挑戰",
+      "image": "/solutions/solution-general-01.jpg",
+      "points": {
+        "point_1": {
+          "title": "人力管理效率低",
+          "description": "駕駛人力調度複雜，人工排班費時費力，臨時調度更是困難重重。"
+        },
+        "point_2": {
+          "title": "安全管理不易",
+          "description": "駕駛行為難以即時掌握，危險駕駛習慣難以及時糾正，事故發生後追查困難。"
+        },
+        "point_3": {
+          "title": "營運成本居高",
+          "description": "油耗、維修等支出難以有效控制，設備投資重複且整合困難，人力成本持續上升。"
+        }
+      }
+    },
+    "aiFeatures": {
+      "mainTitle": "AI 智能系統：車隊管理的最佳助手",
+      "features": {
+        "feature_1": {
+          "title": "闖紅燈偵測",
+          "description": "系統即時監控號誌狀態，在駕駛即將闖紅燈時發出警告，有效預防嚴重的交通事故。",
+          "icon": "trafficLight"
+        },
+        "feature_2": {
+          "title": "路口未停偵測",
+          "description": "系統自動辨識無號誌路口的停等標誌，提醒駕駛及時減速停等，避免交通事故。",
+          "icon": "stop"
+        },
+        "feature_3": {
+          "title": "超速偵測",
+          "description": "系統持續監控車速，當超過速限時立即提醒，協助駕駛維持安全車速。",
+          "icon": "speed"
+        },
+        "feature_4": {
+          "title": "前車碰撞預警",
+          "description": "系統即時計算與前車距離，在可能發生碰撞時提前警示，確保安全車距。",
+          "icon": "car"
+        },
+        "feature_5": {
+          "title": "分心駕駛偵測",
+          "description": "透過 AI 辨識技術偵測分心駕駛行為，如使用手機等，即時提醒確保行車安全。",
+          "icon": "phone"
+        },
+        "feature_6": {
+          "title": "疲勞駕駛偵測",
+          "description": "系統持續監控駕駛疲勞狀態，及早發現疲勞徵兆並提醒休息，預防意外發生。",
+          "icon": "tired"
+        }
+      }
+    },
+    "myFleetFeatures": {
+      "mainTitle": "MyFleet 核心功能",
+      "features": {
+        "feature_1": {
+          "title": "智慧派遣管理",
+          "description": "整合車輛即時位置與狀態資訊，提供智慧派遣建議，優化路線規劃，提升營運效率。"
+        },
+        "feature_2": {
+          "title": "車輛維護管理",
+          "description": "自動記錄保養維修歷程，提供預防性維護提醒，降低意外故障風險，延長車輛使用壽命。"
+        },
+        "feature_3": {
+          "title": "油耗分析管理",
+          "description": "即時監控油耗數據，分析異常耗油原因，提供改善建議，有效降低營運成本。"
+        }
+      }
+    }
+  },
   "Blog": {
     "main": {
       "title": "部落格",
@@ -445,7 +733,7 @@
     "main": {
       "title": "關於我們",
       "subtitle": "About OmniEyes",
-      "description": "OmniEyes is a leading provider of AI-powered fleet management solutions. Our mission is to improve fleet safety, efficiency, and sustainability through AI-powered visual analytics.",
+      "description": "OmniEyes 是領先創投和國家發展基金會於 2019 年成立的，專門研究利用移動通訊、人工智慧的創新解決方案，OmniEyes 的團隊是由三位台灣大學的教授在2017年成立，從台灣聞名的大學發展到獨角獸新創企業（TRUST-U），而現在逐漸成為具有頂尖人工智慧和軟體實力、專業的商業性發展和管理，實實在在富有競爭力的新創公司。",
       "image": "/about-page/about-page-bg.png",
       "slogan": "placeholders"
     },
@@ -520,6 +808,78 @@
     "teamSection": {
       "title": "我們的團隊",
       "content": "OmniEyes 是領先創投和國家發展基金會於 2019 年成立的，專門研究利用移動通訊、人工智慧的創新解決方案， OmniEyes 的團隊是由三位台灣大學的教授在2017年成立，從台灣聞名的大學發展到獨角獸新創企業（TRUST-U），而現在逐漸成為具有頂尖人工智慧和軟體實力、專業的商業性發展和管理，實實在在富有競爭力的新創公司。"
+    }
+  },
+  "CTA": {
+    "title": "透過 AI，提升您的車隊安全與效率",
+    "content": "告訴我們您的需求，我們將盡快聯繫您！",
+    "button": "安排 Demo"
+  },
+  "CTA-Quote": {
+    "title": "想進行 POC 測試嗎？",
+    "content": "告訴我們您的需求，我們將盡快聯繫您！",
+    "button": "獲得報價"
+  },
+  "CTA-Video": {
+    "title": "透過 AI，提升您的車隊安全與效率",
+    "content": "告訴我們您的需求，我們將盡快聯繫您！",
+    "button": "獲得報價"
+  },
+  "AI-Modules": {
+    "SFC": "前鏡頭",
+    "DFC": "內鏡頭",
+    "module_1": {
+      "title": "ViViD 駕駛違規偵測",
+      "function_1": "闖紅燈偵測",
+      "function_2": "路口未停偵測",
+      "function_3": "超速偵測",
+      "function_4": "怠速偵測",
+      "function_5": "路口違停偵測",
+      "function_6": "公車格違停偵測",
+      "function_7": "人行道違停偵測"
+    },
+    "module_2": {
+      "title": "OmniGuard 駕駛危險預警",
+      "function_1": "紅黃燈預警",
+      "function_2": "前車碰撞預警",
+      "function_3": "超速預警",
+      "function_4": "路口停等預警",
+      "function_5": "行人碰撞預警",
+      "function_6": "車道偏離預警 (即將上市)"
+    },
+    "module_3": {
+      "title": "DriverCare 不當行為偵測",
+      "function_1": "未繫安全帶偵測",
+      "function_2": "分心駕駛偵測",
+      "function_3": "抽菸偵測",
+      "function_4": "疲勞駕駛偵測"
+    }
+  },
+  "Footer": {
+    "categories": {
+      "products": {
+        "title": "產品",
+        "items": {
+          "myfleet": "MyFleet",
+          "aiCopilot": "AI Copilot",
+          "hardware": "硬體",
+          "apiService": "API 服務"
+        }
+      },
+      "solutions": {
+        "title": "解決方案",
+        "items": {
+          "general": "一般車隊",
+          "bus": "校車",
+          "heavyTruck": "大型貨車"
+        }
+      },
+      "company": {
+        "title": "動見科技",
+        "items": {
+          "about": "關於我們"
+        }
+      }
     }
   }
 }

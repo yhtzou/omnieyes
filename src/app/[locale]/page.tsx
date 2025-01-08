@@ -4,7 +4,6 @@ import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
-import pageContent from "@/content.json";
 
 function Block({
   imageSrc,
@@ -88,9 +87,9 @@ function ProductBlock({
       </div>
       {features && (
         <div className="space-y-2.5">
-          {features?.map((key, i) => (
-            <div key={i} className="text-sm text-zinc-700">
-              {key}
+          {Object.values(features).map((feature, index) => (
+            <div key={index} className="text-sm text-zinc-700">
+              {feature}
             </div>
           ))}
         </div>
@@ -100,7 +99,6 @@ function ProductBlock({
 }
 
 export default function HomePage() {
-  const homePage = pageContent.homePage;
   const t = useTranslations("HomePage");
   const logos = [
     "EPD.png",
@@ -114,8 +112,21 @@ export default function HomePage() {
   ];
   const esg = [1, 2, 3] as const;
   const reasons = [1, 2, 3, 4, 5] as const;
-  const products = homePage.products;
-  const painpoints = homePage.painpoints;
+  const productKeys = [
+    "product_1",
+    "product_2",
+    "product_3",
+    "product_4",
+  ] as const;
+  const painpointKeys = [
+    "painpoint_1",
+    "painpoint_2",
+    "painpoint_3",
+    "painpoint_4",
+    "painpoint_5",
+    "painpoint_6",
+    "painpoint_7",
+  ] as const;
 
   return (
     <div className="flex flex-col">
@@ -142,15 +153,13 @@ export default function HomePage() {
               br: () => <br />,
             })}
           </p>
-          <p className="mt-2 text-xl">
-            台灣領先的 Edge-AI 車隊管理與駕駛安全解決方案
-          </p>
+          <p className="mt-2 text-xl">{t("main.subtitle")}</p>
         </div>
       </div>
 
       {/* customers logo */}
       <div className="flex flex-col items-center space-y-12 py-20">
-        <h2 className="text-2xl font-medium">為眾多客戶信任</h2>
+        <h2 className="text-2xl font-medium">{t("customers.title")}</h2>
         <div className="container mx-auto flex flex-row gap-8">
           {logos?.map((key, index) => {
             return (
@@ -175,35 +184,39 @@ export default function HomePage() {
         <div className="relative flex flex-col items-center space-y-12">
           <Image
             className="ml-auto w-full px-32 dark:invert"
-            src={t("section_2.image")}
-            alt={t("section_2.title")}
+            src={t("painpoints.image")}
+            alt={t("painpoints.title")}
             width={3552 / 4}
             height={1804 / 4}
           />
           <h2
             className="left-1/6 absolute w-[1420px] pl-20 text-xl font-bold"
-            dangerouslySetInnerHTML={{ __html: t.raw("section_2.title") }}
+            dangerouslySetInnerHTML={{ __html: t.raw("painpoints.title") }}
           />
           <div className="left-1/6 absolute top-0 h-full w-[1420px] space-y-8 px-20 py-32">
             <div className="grid grid-cols-4 gap-8">
-              {painpoints?.slice(0, 4).map((key, index) => (
+              {painpointKeys.slice(0, 4).map((key) => (
                 <div
-                  key={index}
+                  key={key}
                   className="flex flex-col justify-between gap-4 rounded-lg bg-white/50 p-6"
                 >
-                  <p>{key.content}</p>
-                  <h3 className="text-sm font-medium">{key.name}</h3>
+                  <p>{t(`painpoints.${key}.content`)}</p>
+                  {/* <h3 className="text-sm font-medium">
+                    {t(`painpoints.${key}.name`)}
+                  </h3> */}
                 </div>
               ))}
             </div>
             <div className="grid grid-cols-3 place-content-center gap-8">
-              {painpoints?.slice(4, 7).map((key, index) => (
+              {painpointKeys.slice(4, 7).map((key) => (
                 <div
-                  key={index}
+                  key={key}
                   className="flex flex-col justify-between gap-4 rounded-lg bg-white/50 p-6"
                 >
-                  <p>{key.content}</p>
-                  <h3 className="text-sm font-medium">{key.name}</h3>
+                  <p>{t(`painpoints.${key}.content`)}</p>
+                  {/* <h3 className="text-sm font-medium">
+                    {t(`painpoints.${key}.name`)}
+                  </h3> */}
                 </div>
               ))}
             </div>
@@ -211,24 +224,21 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Call to Action */}
-      <div className="bg-zinc-50 py-24">
-        <TopCallToAction className="container mx-auto" />
-      </div>
-
       {/* Product Ecosystem */}
       <div className="w-full space-y-12 bg-[#fcfcfc] py-28">
         <div className="container mx-auto">
-          <h2 className="mb-2 text-4xl font-semibold">完善的產品體系</h2>
-          <p>description</p>
+          <h2 className="mb-2 text-4xl font-semibold">{t("products.title")}</h2>
+          <p>{t("products.description")}</p>
         </div>
-        <div className="container mx-auto grid grid-cols-4 gap-4">
-          {products?.map((product, index) => (
+        <div className="container mx-auto grid grid-cols-4 gap-8">
+          {productKeys.map((key) => (
             <ProductBlock
-              key={index}
-              href={product.href}
-              text={product.text}
-              features={product.features}
+              key={key}
+              href={t(`products.${key}.href`)}
+              text={t(`products.${key}.text`)}
+              features={Object.keys(t.raw(`products.${key}.features`)).map(
+                (featureKey) => t(`products.${key}.features.${featureKey}`),
+              )}
             />
           ))}
         </div>
@@ -269,16 +279,16 @@ export default function HomePage() {
       <div className="container mx-auto py-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <h2 className="mb-8 text-2xl font-bold lg:mb-0">
-            {t("section_3.title")}
+            {t("whyOmniEyes.title")}
           </h2>
 
           <div className="col-span-1 flex flex-col gap-8 lg:col-span-2">
             {reasons?.map((key, index) => (
               <ReasonBlock
                 key={index}
-                title={t(`section_3.blocks.block_${key}.title`)}
-                content={t(`section_3.blocks.block_${key}.content`)}
-                imageSrc={t(`section_3.blocks.block_${key}.image`)}
+                title={t(`whyOmniEyes.blocks.block_${key}.title`)}
+                content={t(`whyOmniEyes.blocks.block_${key}.content`)}
+                imageSrc={t(`whyOmniEyes.blocks.block_${key}.image`)}
               />
             ))}
           </div>
@@ -286,7 +296,7 @@ export default function HomePage() {
       </div>
 
       <Image
-        className="h-full w-full dark:invert"
+        className="hidden h-full w-full dark:invert"
         src="/HomePage/home-news.png"
         alt="news"
         width={2744}
@@ -297,7 +307,7 @@ export default function HomePage() {
         }}
       />
       <Image
-        className="h-full w-full dark:invert"
+        className="hidden h-full w-full dark:invert"
         src="/HomePage/home-customers.png"
         alt="our customers"
         width={2744}
@@ -307,6 +317,11 @@ export default function HomePage() {
           objectFit: "contain",
         }}
       />
+
+      {/* Call to Action */}
+      <div className="bg-zinc-50 py-24">
+        <TopCallToAction className="container mx-auto" />
+      </div>
 
       <div className="hidden">
         {/* section_4 Let's get onboard!*/}
