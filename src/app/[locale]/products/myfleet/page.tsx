@@ -1,5 +1,9 @@
 import AiModules from "@/components/ai-modules";
-import { AskForQuotation, CallToAction } from "@/components/call-to-action";
+import {
+  AskForQuotation,
+  CallToAction,
+  TopCallToAction,
+} from "@/components/call-to-action";
 import TwoColsCard from "@/components/two-col-card";
 import { cn } from "@/lib/utils";
 import { useTranslations } from "next-intl";
@@ -148,7 +152,7 @@ export default function MyFleet() {
         </div>
       </div>
 
-      <CallToAction />
+      <TopCallToAction />
     </div>
   );
 }

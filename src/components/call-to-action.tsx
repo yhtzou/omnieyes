@@ -6,10 +6,19 @@ function AskForQuotation() {
   const t = useTranslations("CTA-Quote");
 
   return (
-    <div className="w-full bg-blue-400 py-32 text-center text-white">
-      <div className="text-3xl font-bold">{t("title")}</div>
-      <p>{t("content")}</p>
-      <Button>{t("button")}</Button>
+    <div className={cn("grid w-full grid-cols-2 gap-8 py-4")}>
+      <div className="flex h-[400px] w-full flex-col justify-center gap-2 bg-zinc-100 p-6">
+        <p>
+          場景：在一個車隊管理中心，車管螢幕上顯示著 MyFleet 的車輛行駛數據與 AI
+          事件。窗外可以看到車輛在路上運行，背景有數據流動的效果，象徵著即時監控和智能管理。
+        </p>
+        <p>關鍵詞：車隊中心、MyFleet 平台、AI 事件、即時監控</p>
+      </div>
+      <div>
+        <div className="text-3xl font-bold">{t("title")}</div>
+        <p>{t("content")}</p>
+        <Button>{t("button")}</Button>
+      </div>
     </div>
   );
 }
@@ -29,18 +38,12 @@ function TopCallToAction({ className }: { className?: string }) {
   const t = useTranslations("CTA-Video");
   return (
     <div className={cn("grid w-full grid-cols-2 gap-8 py-4", className)}>
-      <div className="">
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          className="h-[400px] w-full bg-zinc-100"
-        >
-          {/* <video autoPlay muted loop playsInline className="h-auto h-[400px] w-full bg-zinc-100"> */}
-          {/* <source src="/闖紅燈Red Light Running.webm" type="video/webm" /> */}
-          Your browser does not support the video tag.
-        </video>
+      <div className="flex h-[400px] w-full flex-col justify-center gap-2 bg-zinc-100 p-6">
+        <p>
+          場景：一輛車在城市道路上行駛，前方遇到潛在事故，周圍有數據流動的視覺效果，象徵
+          AI 的即時分析。
+        </p>
+        <p>關鍵詞：城市、街道、車輛、事故、數據、AI</p>
       </div>
       {/* <iframe
         width="560"
